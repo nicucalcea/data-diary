@@ -8,6 +8,7 @@
 
 # User-specific files
 .Ruserdata
+.Rprofile
 
 # Example code in package build process
 *-Ex.R
@@ -47,3 +48,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Mac stuff
+.DS_Store
+
+# Don't need the output folders
+output/
