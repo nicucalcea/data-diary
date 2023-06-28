@@ -52,7 +52,7 @@ source("R/sources/caa.R")
 source("R/sources/ofs.R")
 
 # 🇪🇺 EU: Eurostat
-
+source("R/sources/eurostat.R")
 
 # 🇺🇸 US: Bureau of Labor Statistics
 source("R/sources/bls.R")
@@ -78,6 +78,7 @@ upcoming_stats <- gov_uk |>
   bind_rows(orr |> mutate(source = "ORR")) |>
   bind_rows(caa |> mutate(source = "CAA")) |>
   bind_rows(ofs |> mutate(source = "OFS")) |>
+  bind_rows(eurostat |> mutate(source = "Eurostat", country = "European Union")) |>
   bind_rows(bls |> mutate(source = "BLS", country = "United States")) |>
   bind_rows(un |> mutate(source = "UN", country = "International")) |>
   drop_na(date) |>
@@ -86,9 +87,10 @@ upcoming_stats <- gov_uk |>
          !grepl(" time series", title)) |>
   mutate(date = as.Date(date),
          country = ifelse(is.na(country), "United Kingdom", country),
+         country = factor(country, levels = c("United Kingdom", "European Union", "United States", "International")),
          important = grepl(important_keywords, title, ignore.case = T),
-         business = grepl(business_keywords, title, ignore.case = T)) |>
-  arrange(date, important, business, title)
+         business = grepl(business_keywords, title, ignore.case = T) | business) |>
+  arrange(date, country, important, business, title)
 
 ##################################################################
 ##                        Write to Excel                        ##
