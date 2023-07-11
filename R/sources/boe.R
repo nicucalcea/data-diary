@@ -55,3 +55,5 @@ boe <- tibble(title = boe_title,
           link = "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
           date = bank_rate)
 
+
+remove(bank_rate, boe_data, boe_res, boe_title, boe_link, boe_date)

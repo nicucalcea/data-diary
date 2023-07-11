@@ -5,7 +5,7 @@ scrape_ons <- function(page_nr = 1) {
 
   page_nr = page_nr
   page_date = Sys.Date()
-  max_date = lubridate::ceiling_date(Sys.Date() %m+% months(1), "month")
+  max_date = lubridate::ceiling_date(Sys.Date() %m+% years(1), "month")
 
   data_all <- tibble()
 
@@ -46,4 +46,7 @@ scrape_ons <- function(page_nr = 1) {
 }
 
 ons <- scrape_ons() |>
-  fill(date)
+  fill(date) |>
+  filter(!grepl("time series", title))
+
+remove(scrape_ons)

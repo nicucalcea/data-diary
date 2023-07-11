@@ -51,6 +51,3 @@ rsconnect/
 
 # Mac stuff
 .DS_Store
-
-# Don't need the output folders
-output/

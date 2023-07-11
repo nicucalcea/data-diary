@@ -6,7 +6,7 @@ scrape_gov_uk <- function(page_nr = 1) {
 
   page_nr = page_nr
   page_date = Sys.Date()
-  max_date = lubridate::ceiling_date(Sys.Date() %m+% months(1), "month")
+  max_date = lubridate::ceiling_date(Sys.Date() %m+% years(1), "month")
 
   gov_uk_all <- tibble()
 
@@ -58,3 +58,5 @@ scrape_gov_uk <- function(page_nr = 1) {
 
 
 gov_uk <- scrape_gov_uk()
+
+remove(scrape_gov_uk)

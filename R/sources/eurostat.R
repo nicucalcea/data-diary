@@ -19,3 +19,5 @@ eurostat <- ctx$get("fullEvents") |>
          link = "https://ec.europa.eu/eurostat/web/main/news/release-calendar",
          business = theme == "Economy and finance") |>
   select(title, link, date, business)
+
+remove(eurostat_raw, ctx)

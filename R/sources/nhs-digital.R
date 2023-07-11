@@ -5,7 +5,7 @@ scrape_nhs <- function(page_nr = 1) {
 
   page_nr = page_nr
   page_date = Sys.Date()
-  max_date = lubridate::ceiling_date(Sys.Date() %m+% months(1), "month")
+  max_date = lubridate::ceiling_date(Sys.Date() %m+% years(1), "month")
 
   data_all <- tibble()
 
@@ -46,3 +46,5 @@ scrape_nhs <- function(page_nr = 1) {
 }
 
 nhs_digital <- scrape_nhs()
+
+remove(scrape_nhs)

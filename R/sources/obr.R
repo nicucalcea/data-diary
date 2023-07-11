@@ -16,3 +16,5 @@ obr_date <- obr_raw |>
 obr <- tibble(title = obr_title,
               link = "https://obr.uk/publications/",
               date = obr_date)
+
+remove(obr_raw, obr_title, obr_date)

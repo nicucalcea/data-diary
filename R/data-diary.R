@@ -60,6 +60,8 @@ source("R/sources/bls.R")
 # 🌍 International: UN
 source("R/sources/un.R")
 
+# 🌍 International: OECD
+source("R/sources/oecd.R")
 
 #################################################################
 ##                           Combine                           ##
@@ -81,13 +83,14 @@ upcoming_stats <- gov_uk |>
   bind_rows(eurostat |> mutate(source = "Eurostat", country = "European Union")) |>
   bind_rows(bls |> mutate(source = "BLS", country = "United States")) |>
   bind_rows(un |> mutate(source = "UN", country = "International")) |>
+  bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
   drop_na(date) |>
-  filter(date >= lubridate::floor_date(Sys.Date() %m+% months(1), "month"),
-         date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
-         !grepl(" time series", title)) |>
   mutate(date = as.Date(date),
          country = ifelse(is.na(country), "United Kingdom", country),
          country = factor(country, levels = c("United Kingdom", "European Union", "United States", "International")),
+         flag = case_when(country == "European Union" ~ "🇪🇺",
+                          country == "International" ~ "🌍",
+                          T ~ countrycode::countrycode(country, "country.name", "unicode.symbol")),
          important = grepl(important_keywords, title, ignore.case = T),
          business = grepl(business_keywords, title, ignore.case = T) | business) |>
   arrange(date, country, important, business, title)
@@ -97,8 +100,10 @@ upcoming_stats <- gov_uk |>
 ##################################################################
 
 calendar_sheets <- upcoming_stats |>
-  filter(business) |>
-  # mutate(title = paste0("=HYPERLINK(\"", link, "\", \"", title, "\")")) |>
+  filter(date >= lubridate::floor_date(Sys.Date() %m+% months(1), "month"),
+         date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
+         !grepl(" time series", title),
+         business) |>
   select(Country = country, Release = title, Date = date, Interest = important, link) |>
   identity()
 
@@ -116,3 +121,38 @@ calendar_sheets <- calendar_sheets |>
 writeData(wb, "df_sheet", calendar_sheets) # overwrite the sheet to get the new pretty name overlaying the hyperlink
 
 saveWorkbook(wb, "output/biz_cal.xlsx", overwrite = TRUE)
+
+##################################################################
+##                         Create .ical                         ##
+##################################################################
+
+format_event <- function(start, end, summary, description, tz = "GMT") {
+  template <-"BEGIN:VEVENT\nUID:%s\nDTSTAMP:%s\nDTSTART;VALUE=DATE:%s\nSUMMARY:%s\nDESCRIPTION:%s\nEND:VEVENT"
+  sprintf(template, uuid::UUIDgenerate(),
+          format(Sys.time(), "%Y%m%dT%H%M%SZ", tz = tz),
+          format(start, "%Y%m%d", tz = tz),
+          # format(end, "%Y%m%dT%H%M%SZ", tz = tz),
+          summary,
+          description)
+}
+
+export_calendar <- function(df, file, tz = "BST") {
+  header <- "BEGIN:VCALENDAR\nPRODID:-//MyMeetings/ical //EN\nVERSION:2.0\nCALSCALE:GREGORIAN"
+  footer <- "END:VCALENDAR"
+  df <- df |> filter(business)
+  f <- file(file)
+  open(f, "w")
+  writeLines(header, con = f)
+  invisible(lapply(1:nrow(df), \(i) {
+    ic_char <- format_event(start = df$date[i], end = df$date[i] + 1,
+                            summary = paste0(ifelse(df$important[i], "❗️ ", ""),
+                                             df$flag[i], " ", df$title[i]),
+                            description = df$link[i],
+                            tz = tz)
+    writeLines(ic_char, con = f)
+  }))
+  writeLines(footer, con = f)
+  close(f)
+}
+
+export_calendar(upcoming_stats, file = "output/biz_cal.ics", tz = "GMT")

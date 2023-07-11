@@ -28,3 +28,4 @@ bls <- httr::GET(url = bls_ul, httr::add_headers(.headers=headers)) |>
          link = bls_ul) |>
   select(title = 3, link, date)
 
+remove(bls_ul, headers)
