@@ -85,6 +85,14 @@ upcoming_stats <- gov_uk |>
   bind_rows(un |> mutate(source = "UN", country = "International")) |>
   bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
   drop_na(date) |>
+  filter(!grepl(" time series", title)) |>
+  mutate(title_2 = title) |>
+  separate_wider_delim(cols = title_2, delim = ": ", names = c("title_1", "title_2"),
+                       too_few = "align_start", too_many = "drop") |>
+  group_by(date, title_1) |>
+  slice_head(n = 1) |>
+  ungroup() |>
+  select(-title_1, - title_2) |>
   mutate(date = as.Date(date),
          country = ifelse(is.na(country), "United Kingdom", country),
          country = factor(country, levels = c("United Kingdom", "European Union", "United States", "International")),
@@ -102,7 +110,6 @@ upcoming_stats <- gov_uk |>
 calendar_sheets <- upcoming_stats |>
   filter(date >= lubridate::floor_date(Sys.Date() %m+% months(1), "month"),
          date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
-         !grepl(" time series", title),
          business) |>
   select(Country = country, Release = title, Date = date, Interest = important, link) |>
   identity()
