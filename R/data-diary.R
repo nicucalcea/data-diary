@@ -2,18 +2,6 @@ library(tidyverse)
 library(lubridate)
 library(openxlsx)
 
-# TODO write to ical so I can add it to my Outlook
-
-#################################################################
-##                      Classify releases                      ##
-#################################################################
-
-business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "business", "claimant count", "construction output", "consumer price", "cost of living", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "economic estimates", "economic statistics", "electric vehicle", "employment cost index", "employment situation", "energy performance of building certificates", "fiscal risk", "fuel prices", "fuel sales", "gdp", "government debt", "gross domestic", "house price", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "import and export", "income from farming", "index of production", "index of services", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "labour", "labor", "market data", "money and credit", "national accounts", "price index", "producer price", "productivity", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "retail sales", "revenues and expenses", "revenues and spend", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk energy in brief", "uk energy statistics", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings") |>
-  paste(collapse = "|")
-
-important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances") |>
-  paste(collapse = "|")
-
 #################################################################
 ##                  Scrape individual sources                  ##
 #################################################################
@@ -64,6 +52,16 @@ source("R/sources/un.R")
 source("R/sources/oecd.R")
 
 #################################################################
+##                      Classify releases                      ##
+#################################################################
+
+business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "employment cost index", "employment situation", "energy performance of building certificates", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house price", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "import and export", "income from farming", "index of production", "index of services", "industrial turnover", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "labour", "labor", "market data", "money and credit", "national accounts", "price index", "producer price", "productivity", "profitability", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk energy in brief", "uk energy statistics", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless") |>
+  paste(collapse = "|")
+
+important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances") |>
+  paste(collapse = "|")
+
+#################################################################
 ##                           Combine                           ##
 #################################################################
 
@@ -100,7 +98,7 @@ upcoming_stats <- gov_uk |>
                           country == "International" ~ "🌍",
                           T ~ countrycode::countrycode(country, "country.name", "unicode.symbol")),
          important = grepl(important_keywords, title, ignore.case = T),
-         business = grepl(business_keywords, title, ignore.case = T) | business) |>
+         business = grepl(business_keywords, title, ignore.case = T) | isTRUE(business)) |>
   arrange(date, country, important, business, title)
 
 ##################################################################
@@ -108,8 +106,8 @@ upcoming_stats <- gov_uk |>
 ##################################################################
 
 calendar_sheets <- upcoming_stats |>
-  filter(date >= lubridate::floor_date(Sys.Date() %m+% months(1), "month"),
-         date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
+  filter(date >= lubridate::floor_date(Sys.Date()),
+         # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
          business) |>
   select(Country = country, Release = title, Date = date, Interest = important, link) |>
   identity()
