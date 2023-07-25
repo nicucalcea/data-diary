@@ -51,14 +51,17 @@ source("R/sources/un.R")
 # 🌍 International: OECD
 source("R/sources/oecd.R")
 
+# 🌍 International: IMF
+source("R/sources/imf.R")
+
 #################################################################
 ##                      Classify releases                      ##
 #################################################################
 
-business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "employment cost index", "employment situation", "energy performance of building certificates", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house price", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "import and export", "income from farming", "index of production", "index of services", "industrial turnover", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "labour", "labor", "market data", "money and credit", "national accounts", "price index", "producer price", "productivity", "profitability", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk energy in brief", "uk energy statistics", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless") |>
+business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "employment cost index", "employment situation", "energy performance of building certificates", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house price", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "import and export", "income from farming", "index of production", "index of services", "industrial turnover", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "labour", "labor", "market data", "money and credit", "national accounts", "price index", "producer price", "productivity", "profitability", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk energy in brief", "uk energy statistics", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless", "world economic outlook") |>
   paste(collapse = "|")
 
-important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances") |>
+important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances", "world economic outlook") |>
   paste(collapse = "|")
 
 #################################################################
@@ -82,6 +85,7 @@ upcoming_stats <- gov_uk |>
   bind_rows(bls |> mutate(source = "BLS", country = "United States")) |>
   bind_rows(un |> mutate(source = "UN", country = "International")) |>
   bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
+  bind_rows(imf |> mutate(source = "IMF", country = "International")) |>
   drop_na(date) |>
   filter(!grepl(" time series", title)) |>
   mutate(title_2 = title) |>
