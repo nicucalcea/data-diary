@@ -9,7 +9,7 @@ scrape_nhs <- function(page_nr = 1) {
 
   data_all <- tibble()
 
-  while (page_date < max_date) {
+  while (!is_empty(page_date) && page_date < max_date) {
     Sys.sleep(1)
     print(paste0("Scraping page ", page_nr))
 

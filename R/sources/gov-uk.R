@@ -22,7 +22,7 @@ scrape_gov_uk <- function(page_nr = 1) {
       html_text(trim = T)
 
     gov_uk_link <- gov_uk_raw |>
-      html_nodes(".gem-c-document-list__item-title") |>
+      html_nodes(".gem-c-document-list__item-title a") |>
       # html_children() |>
       html_attr('href') %>%
       paste0("https://www.gov.uk", .)
