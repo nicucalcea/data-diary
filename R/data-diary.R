@@ -1,6 +1,7 @@
 library(tidyverse)
 library(lubridate)
 library(openxlsx)
+library(googlesheets4)
 
 #################################################################
 ##                  Scrape individual sources                  ##
@@ -130,6 +131,23 @@ calendar_sheets <- calendar_sheets |>
 writeData(wb, "df_sheet", calendar_sheets) # overwrite the sheet to get the new pretty name overlaying the hyperlink
 
 saveWorkbook(wb, "output/biz_cal.xlsx", overwrite = TRUE)
+
+##----------------------------------------------------------------
+##                    Write to Google Sheets                     -
+##----------------------------------------------------------------
+
+calendar_google_sheets <- upcoming_stats |>
+  filter(date >= lubridate::floor_date(Sys.Date()),
+         # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
+         business) |>
+  mutate(title = gs4_formula(
+    paste0('=HYPERLINK("', link, '", "', title, '")')
+  )) |>
+  select(flag, country, title, date, important) |>
+  identity()
+
+range_clear("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", sheet = "Full Schedule", range = "B4:F")
+range_write("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", calendar_google_sheets, sheet = "Full Schedule", range = "B4")
 
 ##################################################################
 ##                         Create .ical                         ##
