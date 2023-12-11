@@ -40,6 +40,9 @@ source("R/sources/caa.R")
 # 🇬🇧 UK: Office for Students
 source("R/sources/ofs.R")
 
+# 🇬🇧 UK: Kantar
+source("R/sources/kantar.R")
+
 # 🇪🇺 EU: Eurostat
 source("R/sources/eurostat.R")
 
@@ -59,7 +62,7 @@ source("R/sources/imf.R")
 ##                      Classify releases                      ##
 #################################################################
 
-business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "capital formation", "capital stocks", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "Economic and fiscal outlook", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "electricity consumption", "employed people", "employee earnings", "employer skills survey", "employment cost index", "employment situation", "employment survey", "energy consumption in the UK", "energy performance of building certificates", "family food", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house building", "house price", "household costs", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "HMRC survey compliance cost", "import and export", "income estimates", "income from farming", "index of production", "index of services", "industrial turnover", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "labour", "labor", "market data", "mergers and acquisitions", "money and credit", "national accounts", "pay gap", "price index", "pricing trends", "producer price", "productivity", "profitability", "public sector employment", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "rental sector", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk economic accounts", "uk energy in brief", "uk energy statistics", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless", "world economic outlook") |>
+business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "capital formation", "capital stocks", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "Economic and fiscal outlook", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "electricity consumption", "employed people", "employee earnings", "employer skills survey", "employment cost index", "employment situation", "employment survey", "energy consumption in the UK", "energy performance of building certificates", "family food", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house building", "house price", "household costs", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "HMRC survey compliance cost", "import and export", "income estimates", "income from farming", "index of production", "index of services", "industrial turnover", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "kantar", "labour", "labor", "market data", "mergers and acquisitions", "money and credit", "national accounts", "pay gap", "price index", "pricing trends", "producer price", "productivity", "profitability", "public sector employment", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "rental sector", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk economic accounts", "uk energy in brief", "uk energy statistics", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless", "world economic outlook") |>
   paste(collapse = "|")
 
 important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances", "world economic outlook") |>
@@ -73,7 +76,7 @@ upcoming_stats <- gov_uk |>
   filter(!title %in% c(ons$title, nhs_digital$title, ofcom$title)) |>
   mutate(source = "GOV.UK") |>
   bind_rows(ons |> mutate(source = "ONS")) |>
-  bind_rows(nomis |> mutate(source = "Nomis")) |>
+  # bind_rows(nomis |> mutate(source = "Nomis")) |>
   bind_rows(boe |> mutate(source = "Bank of England")) |>
   bind_rows(obr |> mutate(source = "OBR")) |>
   bind_rows(halifax |> mutate(source = "Halifax")) |>
@@ -82,6 +85,7 @@ upcoming_stats <- gov_uk |>
   bind_rows(orr |> mutate(source = "ORR")) |>
   bind_rows(caa |> mutate(source = "CAA")) |>
   bind_rows(ofs |> mutate(source = "OFS")) |>
+  bind_rows(kantar |> mutate(source = "Kantar")) |>
   bind_rows(eurostat |> mutate(source = "Eurostat", country = "European Union")) |>
   bind_rows(bls |> mutate(source = "BLS", country = "United States")) |>
   bind_rows(un |> mutate(source = "UN", country = "International")) |>
@@ -147,6 +151,7 @@ calendar_google_sheets <- upcoming_stats |>
   identity()
 
 range_clear("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", sheet = "Full Schedule", range = "B4:F")
+
 range_write("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", calendar_google_sheets, sheet = "Full Schedule", range = "B4")
 
 ##################################################################
