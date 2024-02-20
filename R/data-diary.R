@@ -69,7 +69,7 @@ source("R/sources/imf.R")
   # paste(collapse = "|")
 
 
-climate_keywords <- c("climate", "environment", "renewable", "fossil", "oil", "gas", "lng", "carbon", "emission", "green", "energy", "mining", "mines") |>
+globalwitness_keywords <- c("climate", "environment", "renewable", "fossil", "petrol", "oil", "gas", "lng", "carbon", "emission", "green", "energy", "mining", "mines", "mineral", "commodit", "forest") |>
   paste(collapse = "|")
 
 
@@ -83,7 +83,7 @@ upcoming_stats <- gov_uk |>
                        )) |>
   mutate(source = "GOV.UK") |>
   bind_rows(ons |> mutate(source = "ONS")) |>
-  # bind_rows(nomis |> mutate(source = "Nomis")) |>
+  bind_rows(nomis |> mutate(source = "Nomis")) |>
   # bind_rows(boe |> mutate(source = "Bank of England")) |>
   # bind_rows(obr |> mutate(source = "OBR")) |>
   # bind_rows(halifax |> mutate(source = "Halifax")) |>
@@ -115,84 +115,102 @@ upcoming_stats <- gov_uk |>
                           T ~ countrycode::countrycode(country, "country.name", "unicode.symbol")),
          # important = grepl(important_keywords, title, ignore.case = T),
          # business = grepl(business_keywords, title, ignore.case = T) | isTRUE(business),
-         climate = grepl(climate_keywords, title, ignore.case = T)) |>
+         globalwitness = grepl(globalwitness_keywords, title, ignore.case = T)) |>
   arrange(date, country, business, title)
 
 ##################################################################
 ##                        Write to Excel                        ##
 ##################################################################
 
-calendar_sheets <- upcoming_stats |>
-  filter(date >= lubridate::floor_date(Sys.Date()),
-         # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
-         climate) |>
-  select(Country = country, Release = title, Date = date, link) |>
-  identity()
-
-# create and write workbook
-wb <- createWorkbook()
-addWorksheet(wb, "df_sheet")
-
-class(calendar_sheets$link) <- "hyperlink" # mark as a hyperlink
-writeData(wb, "df_sheet", calendar_sheets$link, startCol = which(colnames(calendar_sheets) == "Release"), startRow = 2)
-
-calendar_sheets <- calendar_sheets |>
-  select(-link) |>
-  mutate(Date = as.character(Date))
-
-writeData(wb, "df_sheet", calendar_sheets) # overwrite the sheet to get the new pretty name overlaying the hyperlink
-
-saveWorkbook(wb, "output/climate_cal.xlsx", overwrite = TRUE)
+# write_excel_data <- function(data, file_path) {
+#   calendar_sheets <- data |>
+#     filter(date >= lubridate::floor_date(Sys.Date()),
+#            # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
+#            globalwitness) |>
+#     select(Country = country, Release = title, Date = date, link) |>
+#     identity()
+#
+#   # create and write workbook
+#   wb <- createWorkbook()
+#   addWorksheet(wb, "df_sheet")
+#
+#   class(calendar_sheets$link) <- "hyperlink" # mark as a hyperlink
+#   writeData(wb, "df_sheet", calendar_sheets$link, startCol = which(colnames(calendar_sheets) == "Release"), startRow = 2)
+#
+#   calendar_sheets <- calendar_sheets |>
+#     select(-link) |>
+#     mutate(Date = as.character(Date))
+#
+#   writeData(wb, "df_sheet", calendar_sheets) # overwrite the sheet to get the new pretty name overlaying the hyperlink
+#
+#   saveWorkbook(wb, "output/globalwitness_cal.xlsx", overwrite = TRUE)
+# }
+#
+#
+# write_excel_data(upcoming_stats, file_path)
 
 ##----------------------------------------------------------------
 ##                    Write to Google Sheets                     -
 ##----------------------------------------------------------------
 
-calendar_google_sheets <- upcoming_stats |>
-  filter(date >= lubridate::floor_date(Sys.Date()),
-         # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
-         climate) |>
-  mutate(title = gs4_formula(
-    paste0('=HYPERLINK("', link, '", "', title, '")')
-  )) |>
-  select(flag, country, title, date) |>
-  identity()
+write_sheets_cal <- function() {
 
-range_clear("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", sheet = "Full Schedule", range = "B4:F")
+  calendar_google_sheets <- upcoming_stats |>
+    filter(date >= lubridate::floor_date(Sys.Date()),
+           # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
+           globalwitness) |>
+    mutate(title = gs4_formula(
+      paste0('=HYPERLINK("', link, '", "', title, '")')
+    )) |>
+    select(flag, country, title, date) |>
+    identity()
 
-range_write("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", calendar_google_sheets, sheet = "Full Schedule", range = "B4")
+  range_clear("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", sheet = "Full Schedule", range = "B4:F")
+
+  range_write("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", calendar_google_sheets, sheet = "Full Schedule", range = "B4")
+
+}
+
+write_sheets_cal()
 
 ##################################################################
 ##                         Create .ical                         ##
 ##################################################################
 
-format_event <- function(start, end, summary, description, tz = "GMT") {
-  template <-"BEGIN:VEVENT\nUID:%s\nDTSTAMP:%s\nDTSTART;VALUE=DATE:%s\nSUMMARY:%s\nDESCRIPTION:%s\nEND:VEVENT"
-  sprintf(template, uuid::UUIDgenerate(),
-          format(Sys.time(), "%Y%m%dT%H%M%SZ", tz = tz),
-          format(start, "%Y%m%d", tz = tz),
-          # format(end, "%Y%m%dT%H%M%SZ", tz = tz),
-          summary,
-          description)
+write_ical <- function() {
+
+  format_event <- function(start, end, summary, description, tz = "GMT") {
+    template <-"BEGIN:VEVENT\nUID:%s\nDTSTAMP:%s\nDTSTART;VALUE=DATE:%s\nSUMMARY:%s\nDESCRIPTION:%s\nEND:VEVENT"
+    sprintf(template, uuid::UUIDgenerate(),
+            format(Sys.time(), "%Y%m%dT%H%M%SZ", tz = tz),
+            format(start, "%Y%m%d", tz = tz),
+            # format(end, "%Y%m%dT%H%M%SZ", tz = tz),
+            summary,
+            description)
+  }
+
+  export_calendar <- function(df, file, tz = "BST") {
+    header <- "BEGIN:VCALENDAR\nPRODID:-//MyMeetings/ical //EN\nVERSION:2.0\nCALSCALE:GREGORIAN"
+    footer <- "END:VCALENDAR"
+    df <- df |> filter(globalwitness)
+    f <- file(file)
+    open(f, "w")
+    writeLines(header, con = f)
+    invisible(lapply(1:nrow(df), \(i) {
+      ic_char <- format_event(start = df$date[i], end = df$date[i] + 1,
+                              summary = paste0(
+                                # ifelse(df$important[i], "❗️ ", ""),
+                                               df$flag[i], " ", df$title[i]),
+                              description = df$link[i],
+                              tz = tz)
+      writeLines(ic_char, con = f)
+    }))
+    writeLines(footer, con = f)
+    close(f)
+  }
+
+  export_calendar(upcoming_stats, file = "output/globalwitness_cal.ics", tz = "GMT")
+
 }
 
-export_calendar <- function(df, file, tz = "BST") {
-  header <- "BEGIN:VCALENDAR\nPRODID:-//MyMeetings/ical //EN\nVERSION:2.0\nCALSCALE:GREGORIAN"
-  footer <- "END:VCALENDAR"
-  df <- df |> filter(climate)
-  f <- file(file)
-  open(f, "w")
-  writeLines(header, con = f)
-  invisible(lapply(1:nrow(df), \(i) {
-    ic_char <- format_event(start = df$date[i], end = df$date[i] + 1,
-                            summary = paste0(ifelse(df$important[i], "❗️ ", ""),
-                                             df$flag[i], " ", df$title[i]),
-                            description = df$link[i],
-                            tz = tz)
-    writeLines(ic_char, con = f)
-  }))
-  writeLines(footer, con = f)
-  close(f)
-}
-
-export_calendar(upcoming_stats, file = "output/climate_cal.ics", tz = "GMT")
+write_ical()

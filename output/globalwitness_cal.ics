@@ -3,498 +3,533 @@ PRODID:-//MyMeetings/ical //EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:727de6b1-eebf-494a-b060-b1565ca08bd6
-DTSTAMP:20240220T170140Z
+UID:c1262af0-e19d-491f-bb5f-e685aa6acafe
+DTSTAMP:20240220T202056Z
+DTSTART;VALUE=DATE:20240105
+SUMMARY:🌍 Commodity Trade Statistics Database
+DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:8fcc0c70-caa7-4cda-af07-8fb26bd4b67d
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240205
 SUMMARY:🇪🇺 Renewables in transport
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:4e2bb223-12bf-4fb1-8c59-705b9033a0f1
-DTSTAMP:20240220T170140Z
+UID:879bdd17-a35d-4c88-8d6b-9989ec2b5f85
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240209
 SUMMARY:🇪🇺 Businesses in the electricity, gas, steam and air conditioning supply sector
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:3616bf0e-b65d-4063-8118-e33944ab15f1
-DTSTAMP:20240220T170140Z
+UID:7baccfaa-89db-4a95-bef8-07fedeb4cf15
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240209
 SUMMARY:🇪🇺 Businesses in the mining and quarrying sector
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:82208651-df56-49aa-959f-3ab4a857155e
-DTSTAMP:20240220T170140Z
+UID:99862b7e-79ee-4fa3-abb2-566c0d606d20
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240213
 SUMMARY:🇪🇺 Decomposition of energy production and consumption trends, 2023
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:26f4630b-72d2-4e6f-8525-108d0fcb9a3f
-DTSTAMP:20240220T170140Z
+UID:7cd949f0-4bbf-4f24-94a3-d86dd2d4338c
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240214
 SUMMARY:🇪🇺 Greenhouse gas emissions accounts
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:f73397ed-df0a-48aa-98ec-971476a1dce7
-DTSTAMP:20240220T170140Z
+UID:8320f2a3-8f90-4bf3-9f94-c25de36d5ea6
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240214
 SUMMARY:🇪🇺 Monthly energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:49082dd0-7b6d-45a9-b4ea-fe0a1cc52ea4
-DTSTAMP:20240220T170140Z
+UID:cf11dc69-6e47-4d58-a60a-1fd002ce9922
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240221
 SUMMARY:🇪🇺 Renewables in electricity generation
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:bed4c2ec-6cb9-423a-b679-7d228c42db45
-DTSTAMP:20240220T170140Z
+UID:49f39a44-ad58-47ed-a4b3-b6cd1bbc5aa3
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240222
 SUMMARY:🇬🇧 Green Homes Grant Local Authority Delivery and Home Upgrade Grant: December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/green-homes-grant-local-authority-delivery-and-home-upgrade-grant-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:7c3230ce-4977-40f7-b071-0e1858b4f392
-DTSTAMP:20240220T170140Z
+UID:23f86609-9a25-493e-9250-f01ffe7a90fe
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240222
 SUMMARY:🇬🇧 Non-domestic National Energy Efficiency Data-framework 2023: Geographical Annex
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/non-domestic-national-energy-efficiency-data-framework-2023-geographical-annex
 END:VEVENT
 BEGIN:VEVENT
-UID:7f9980a8-64cd-4822-9034-826a753332c4
-DTSTAMP:20240220T170140Z
+UID:a5b555da-ec51-40af-bdda-0ae52c571960
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240222
 SUMMARY:🇬🇧 Patient-Led Assessments of the Care Environment (PLACE), 2023 - England
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/patient-led-assessments-of-the-care-environment-place-2023-england
 END:VEVENT
 BEGIN:VEVENT
-UID:f651e1b3-4331-4e90-8f32-4a8bb8355441
-DTSTAMP:20240220T170140Z
+UID:8be713a0-e307-43b8-a569-d9b17867ee04
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240227
 SUMMARY:🇪🇺 Renewables in heating and cooling
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:9daadc9e-83a7-44fd-a5b4-111776aa52be
-DTSTAMP:20240220T170140Z
+UID:f79b6cb7-28a8-4036-9186-dfdf9266c84c
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240227
 SUMMARY:🇪🇺 How much did the price of olive oil change?
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:b1957a82-e64a-4b52-9b51-a592801ab00c
-DTSTAMP:20240220T170140Z
+UID:5538d3e9-9766-455d-8f77-c9e3dc5ae3b7
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:0a1a5155-64d2-486c-a5f6-242e023d8466
-DTSTAMP:20240220T170140Z
+UID:f966bef8-7c75-4855-91c0-a123934a0384
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Energy trends and prices: December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:0663980a-abb7-4bcb-9547-a5e837da3e16
-DTSTAMP:20240220T170140Z
+UID:efa7ca0a-4c29-4bb9-a0de-8a85a033ca73
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (quarterly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-quarterly-data--16
 END:VEVENT
 BEGIN:VEVENT
-UID:d88ccb8e-5db9-4f69-a33a-cd4b8765b189
-DTSTAMP:20240220T170140Z
+UID:28d3a4ba-5a7f-4e3a-ad3b-1fe470fe8bc0
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:de4ed894-af3e-457d-950c-eadf5846271c
-DTSTAMP:20240220T170140Z
+UID:c8f81855-8f8b-4677-8d4b-17af71fd575c
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇪🇺 Greenhouse gas emissions - carbon footprints
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:4f62474f-712f-462a-b2f9-5d12ea9fde41
-DTSTAMP:20240220T170140Z
+UID:fc1ec4b4-f98c-4c9f-bd74-0b8fc5616cb6
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240307
 SUMMARY:🇬🇧 Electricity Consumption and Renewable Generation in Northern Ireland: Year Ending December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/electricity-consumption-and-renewable-generation-in-northern-ireland-year-ending-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:261410cd-a265-4644-b790-d0a9462e341a
-DTSTAMP:20240220T170140Z
+UID:bfa7cca3-0e6d-44dd-872e-d4bc4ca7e1de
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240307
 SUMMARY:🇬🇧 Low carbon and renewable energy economy, UK: 2022
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MzgsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy9sb3djYXJib25hbmRyZW5ld2FibGVlbmVyZ3llY29ub215dWsyMDIyIiwibGlzdFR5cGUiOiJyZWxlYXNlY2FsZW5kYXIifQ.i44TFEIY4-i5SBdxX7QcIj_wPr8_Zb3IibMmB0Mfz6M
 END:VEVENT
 BEGIN:VEVENT
-UID:c84b82ad-c967-4324-ab51-6d403e4c6dfe
-DTSTAMP:20240220T170140Z
+UID:d0f22dbb-6e4f-4966-8dab-653d8e90b4bd
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240312
 SUMMARY:🇬🇧 Access to green space in England
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/access-to-green-space-in-england
 END:VEVENT
 BEGIN:VEVENT
-UID:597c6730-4d06-430e-aa39-731393af054e
-DTSTAMP:20240220T170140Z
+UID:a5d21a22-656d-4194-a536-22d38eabbd35
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240313
 SUMMARY:🇪🇺 Monthly energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:a4d405c0-8364-4b36-96f8-88a1c6c33e1d
-DTSTAMP:20240220T170140Z
+UID:b1b4ae16-80c7-4169-9da8-9eb9006359ec
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation, November 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-november-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:7d3247a8-f85d-48d0-bd02-28189549f7e4
-DTSTAMP:20240220T170140Z
+UID:8144d48e-6b2f-442a-874c-e8e278d5687d
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🇬🇧 Update on experimental estimates of green jobs, UK
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NTUsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy91cGRhdGVvbmV4cGVyaW1lbnRhbGVzdGltYXRlc29mZ3JlZW5qb2JzdWsiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.UrmZTpYKqyXtsnzjsbCzWOQIzbpBhFK85GCncd28wFY
 END:VEVENT
 BEGIN:VEVENT
-UID:354d5c8b-06b0-46a1-96da-095317331296
-DTSTAMP:20240220T170140Z
+UID:36ab3e4f-e6d5-47d2-8e7f-dbe90bd03887
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🇪🇺 Shedding light on energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:2368812a-8aa3-4c10-9f73-f5ade6e99442
-DTSTAMP:20240220T170140Z
+UID:e069f99d-98ac-4a3f-8cc1-956447561aba
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240315
 SUMMARY:🇪🇺 Energy use by businesses and households
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:55d96de0-177f-4d01-b28e-62fe22ceff54
-DTSTAMP:20240220T170140Z
+UID:41980f9b-8836-4c81-a15f-36212f36f13c
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240315
 SUMMARY:🇪🇺 Physical energy flow accounts
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:176cdbd6-9d42-4c90-a846-d1aa3feb3028
-DTSTAMP:20240220T170140Z
+UID:c0fb9fbd-453e-42b2-bb47-b7d8ce7b4670
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240318
 SUMMARY:🇪🇺 Environmental economy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:d27d7dbc-e60e-415f-8f56-baa833b0bdb7
-DTSTAMP:20240220T170140Z
+UID:d2d0fce1-22b2-4e36-93bf-3919b899e9c0
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240321
 SUMMARY:🇬🇧 Green Homes Grant Local Authority Delivery and Home Upgrade Grant: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/green-homes-grant-local-authority-delivery-and-home-upgrade-grant-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:3ebf2c78-fb3d-49fe-a64c-1bdae0d8e236
-DTSTAMP:20240220T170140Z
+UID:ac0de9e4-aa67-498f-aac7-3709e6bb6d90
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240322
 SUMMARY:🇪🇺 EU imports of energy products - latest developments
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:2c31bdc2-8e86-4737-a984-dc05ea080808
-DTSTAMP:20240220T170140Z
+UID:265488eb-b7fc-4527-99c6-ca686ac2aa9d
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: February 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-february-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:827292d7-54d1-4b78-8cfc-ab89a5480ec8
-DTSTAMP:20240220T170140Z
+UID:fa2f3baa-c2fc-49f8-9827-b29c08f6ea88
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Energy prices: October to December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-october-to-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:45f611c8-fe58-4fc2-be50-43b90539f916
-DTSTAMP:20240220T170140Z
+UID:9cd83e13-b3a4-4529-aec1-9332adc7ee7e
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Energy trends and prices: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:70518f79-dc9d-4ffc-bdb4-b433709e051b
-DTSTAMP:20240220T170140Z
+UID:1aa83535-ae87-45d4-8a2b-beb57c98cbd2
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Energy trends: October to December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-october-to-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:8ad3da3d-651c-410c-b517-d3ee25893f01
-DTSTAMP:20240220T170140Z
+UID:60674642-7b16-467d-8223-c76e77963e33
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Household Energy Efficiency Detailed Report (annual data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-detailed-report-annual-data--4
 END:VEVENT
 BEGIN:VEVENT
-UID:7c24a860-9517-4e8a-9788-81f3f15d20a7
-DTSTAMP:20240220T170140Z
+UID:104dd6d7-21e5-48c8-8e39-fd67f2689b72
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (monthly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-monthly-data--32
 END:VEVENT
 BEGIN:VEVENT
-UID:5bfec91f-d9f1-43a3-96c7-f495175b5a5d
-DTSTAMP:20240220T170140Z
+UID:153be490-26b7-4125-a339-4b20e132275c
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:622e5a03-03cf-45f3-abeb-23bbf5fd277d
-DTSTAMP:20240220T170140Z
+UID:9626c5f5-ad33-41e6-aa16-6eaf4a136af8
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 UK greenhouse gas emissions: 2023 provisional figures
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-greenhouse-gas-emissions-2023-provisional-figures
 END:VEVENT
 BEGIN:VEVENT
-UID:7b98dbfe-4b99-4383-97dd-c7e853343e4a
-DTSTAMP:20240220T170140Z
+UID:d2c9ab74-c427-4bdc-8aed-be1a9b95d8b7
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240404
 SUMMARY:🇬🇧 Energy, goods and services used by UK businesses: 2022
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6OTYsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy9lbmVyZ3lnb29kc2FuZHNlcnZpY2VzdXNlZGJ5dWtidXNpbmVzc2VzMjAyMiIsImxpc3RUeXBlIjoicmVsZWFzZWNhbGVuZGFyIn0.HMRvncp8gZKonqC_qUkgicvenYZZrHyunLjnvoULdXA
 END:VEVENT
 BEGIN:VEVENT
-UID:2e58515c-bd87-49b2-9d93-a51a99fbed3e
-DTSTAMP:20240220T170140Z
+UID:c5ce663b-6177-4996-a31f-b92255065823
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240411
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation, December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:0880a699-3aef-4e40-820e-e8b1b2d4c142
-DTSTAMP:20240220T170140Z
+UID:d238563f-b8f8-4972-9133-0ba0e12ef5cb
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240425
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: January to March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-january-to-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:ae2d321f-8f9c-4e66-bfd0-9fa63e3c310b
-DTSTAMP:20240220T170140Z
+UID:7bb59ccc-57df-4501-b226-e2c538e7ea94
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240425
 SUMMARY:🇬🇧 Energy trends and prices: February 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-february-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:1ef28146-5698-4d2a-af9d-3473d8f89137
-DTSTAMP:20240220T170140Z
+UID:34badf03-87b0-4fd8-8436-c7dc8ec04e79
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240507
 SUMMARY:🇬🇧 UK environmental taxes: 2023
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MzgsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy91a2Vudmlyb25tZW50YWx0YXhlczIwMjMiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.JcwRG7nd-910VWDUp3hL7xkO6l5kgyfZILVweTnSYEk
 END:VEVENT
 BEGIN:VEVENT
-UID:71a4ca2f-1542-41b7-bc3a-324d01fb3069
-DTSTAMP:20240220T170140Z
+UID:25c2cdd9-70f4-4337-bf88-d41bf4f7f6ab
+DTSTAMP:20240220T202056Z
+DTSTART;VALUE=DATE:20240516
+SUMMARY:🇬🇧 Joint Forest Sector Questionnaire: Provisional 2023 data
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/joint-forest-sector-questionnaire-provisional-2023-data
+END:VEVENT
+BEGIN:VEVENT
+UID:90966885-4762-4aa5-8eab-2fe97bf2f652
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240517
 SUMMARY:🇬🇧 Low Carbon and Renewable Energy Economy (LCREE) Survey: Indirect estimates
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NTgsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy9sb3djYXJib25hbmRyZW5ld2FibGVlbmVyZ3llY29ub215bGNyZWVzdXJ2ZXlpbmRpcmVjdGVzdGltYXRlcyIsImxpc3RUeXBlIjoicmVsZWFzZWNhbGVuZGFyIn0.ug-s7wtvCHhZbTQrWLldhSN2X1_zCZ2HWzBqXFBye5o
 END:VEVENT
 BEGIN:VEVENT
-UID:893f7983-e686-431c-9a5f-9b0f28d926e5
-DTSTAMP:20240220T170140Z
+UID:499f4017-f198-467c-8e9f-2dab917ec75d
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240530
 SUMMARY:🇬🇧 Energy trends and prices: March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:59c7eacb-4d86-4935-9749-cbdcddb8767c
-DTSTAMP:20240220T170140Z
+UID:c5893add-9ec3-4dde-b357-cf804043bbf2
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240530
 SUMMARY:🇬🇧 Northern Ireland Environmental Statistics Report 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/northern-ireland-environmental-statistics-report-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:53a0b03f-0e57-4f4e-9eaf-6a5da6b028ed
-DTSTAMP:20240220T170140Z
+UID:119fa7e1-cdef-4b3f-8258-dbe3904c80d1
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240604
 SUMMARY:🇬🇧 UK Environmental Accounts: 2024
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NzUsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy91a2Vudmlyb25tZW50YWxhY2NvdW50czIwMjQiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.mwINsjCAmKrCZxFUNzNDbLMSpQR-7Zzkl8B2auCZO9g
 END:VEVENT
 BEGIN:VEVENT
-UID:ba84c9a0-a904-425e-8bd4-23cfa6b23b3a
-DTSTAMP:20240220T170140Z
+UID:9d565a1d-f526-4950-85dc-81847c8a6fdf
+DTSTAMP:20240220T202056Z
+DTSTART;VALUE=DATE:20240620
+SUMMARY:🇬🇧 Forestry Commission Key Performance Indicators: Report for 2023-24
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-commission-key-performance-indicators-report-for-2023-24
+END:VEVENT
+BEGIN:VEVENT
+UID:789caaf7-f308-489a-9448-c882277b4f1f
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240621
 SUMMARY:🇬🇧 Environmental Protection Expenditure Survey, UK: 2022
 DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MSwicGFnZVNpemUiOjEwMCwicGFnZSI6MywidXJpIjoiL3JlbGVhc2VzL2Vudmlyb25tZW50YWxwcm90ZWN0aW9uZXhwZW5kaXR1cmVzdXJ2ZXl1azIwMjIiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.rpECxxPU0mGdLxxXpgB02MxCP6HZVjH3hSIc3jkMZ9Y
 END:VEVENT
 BEGIN:VEVENT
-UID:4c48f641-2bb3-4604-a91e-edd087deec7c
-DTSTAMP:20240220T170140Z
+UID:58a4dff0-b0e8-4bdd-a48e-8c6852acd2ae
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Energy prices: January to March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-january-to-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:618468f2-3b40-4f13-a2cb-2fc7639121ba
-DTSTAMP:20240220T170140Z
+UID:3d3650a5-16ac-40ad-bbe0-9fc873d1be2f
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Energy trends and prices: April 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-april-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:9aaa195a-8c54-412d-924f-c4455cb1ebaa
-DTSTAMP:20240220T170140Z
+UID:3f23d063-c4dc-4d82-a7bf-4825f7529064
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Energy trends: January to March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-january-to-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:e5da1e64-88da-43e9-a2ba-1ecd3ce14df4
-DTSTAMP:20240220T170140Z
+UID:ca3c8095-92e4-49d5-841a-5cd780912f6d
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Local authority greenhouse gas emissions: 2022 estimates
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/local-authority-greenhouse-gas-emissions-2022-estimates
 END:VEVENT
 BEGIN:VEVENT
-UID:03cca3a6-adbd-477c-8bc1-90a53814e9db
-DTSTAMP:20240220T170140Z
+UID:dcb02c3d-4dfd-454a-882c-ad678c95a81f
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 UK road transport energy consumption at regional and local authority level, 2005 to 2022
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-road-transport-energy-consumption-at-regional-and-local-authority-level-2005-to-2022
 END:VEVENT
 BEGIN:VEVENT
-UID:d9895da8-6166-43e7-bdf2-b3ae5440462a
-DTSTAMP:20240220T170140Z
+UID:f857e0a4-686a-4b77-b154-cae63c3bee07
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240725
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: April to June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-april-to-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:dfc774a8-c0d0-40dd-9c3b-9898c08a5659
-DTSTAMP:20240220T170140Z
+UID:00a3bd6a-efe6-49b0-910e-e0128a9a1d86
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 Digest of UK Energy Statistics – 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/digest-of-uk-energy-statistics-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:1e86c318-f392-403c-8b20-a388b6fe4ac9
-DTSTAMP:20240220T170140Z
+UID:3453e498-ab40-4eda-8262-9c0cbfe3477e
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 Energy Flow Chart – 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-flow-chart-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:5b79a5f0-6d31-4d32-bdd1-f62d45b6893e
-DTSTAMP:20240220T170140Z
+UID:9217260f-d06f-4f98-abf2-3c222b4d2c5f
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 Energy trends and prices: May 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-may-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:2970391e-060e-4e9b-9675-4dbb2a7af617
-DTSTAMP:20240220T170140Z
+UID:9fd5f1dc-5fbf-4594-826b-56361bcedbd7
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 UK Energy in Brief – 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-energy-in-brief-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:f9336c73-e872-4250-9f05-37398ae0bfe4
-DTSTAMP:20240220T170140Z
+UID:5b0ce331-4c4f-45cd-836e-291bb00e96c7
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240829
 SUMMARY:🇬🇧 Energy trends and prices: June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:3209413c-94a1-4e0e-8a75-0aa17ddb5466
-DTSTAMP:20240220T170140Z
+UID:83ccf4fb-e628-48c2-b6a3-adcb1e4fc9eb
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Energy prices: April to June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-april-to-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:2daf66b8-0b0f-4abe-be6e-115389993b5f
-DTSTAMP:20240220T170140Z
+UID:3f7d92b0-e192-4c07-b2db-74a135877a86
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Energy trends and prices: July 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-july-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:4dfec820-346c-45a2-8897-4df8a7c5ea37
-DTSTAMP:20240220T170140Z
+UID:d7de761e-bc70-4298-9403-fa0f1c260fca
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Energy trends: April to June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-april-to-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:9cf851fb-c7ff-44eb-80f2-593504ce258b
-DTSTAMP:20240220T170140Z
+UID:f0428b08-c092-44fe-97fa-19158bebf5dd
+DTSTAMP:20240220T202056Z
+DTSTART;VALUE=DATE:20240926
+SUMMARY:🇬🇧 Forestry Facts and Figures 2024
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-facts-and-figures-2024
+END:VEVENT
+BEGIN:VEVENT
+UID:8e04769a-b5e3-4072-81e5-7319d70468ea
+DTSTAMP:20240220T202056Z
+DTSTART;VALUE=DATE:20240926
+SUMMARY:🇬🇧 Forestry Statistics 2024
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-statistics-2024
+END:VEVENT
+BEGIN:VEVENT
+UID:99095700-9517-4ba3-8cfb-84b0f51e69df
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241024
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: July to September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-july-to-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:8a3199db-3c5e-4a83-8976-3656ec6dc968
-DTSTAMP:20240220T170140Z
+UID:75c74c43-be5c-4588-ae86-8e258e8a49ac
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241031
 SUMMARY:🇬🇧 Energy trends and prices: August 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-august-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:7c6623cd-7dc1-4e66-94ab-6063439839ee
-DTSTAMP:20240220T170140Z
+UID:8917465a-18f6-4c4a-8016-f6d7a8eec479
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241128
 SUMMARY:🇬🇧 Energy trends and prices: September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:901bb26c-961c-434e-8cae-621f3562d4c4
-DTSTAMP:20240220T170140Z
+UID:2e55fc8d-13ec-4e7a-8902-118dffee6e90
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241201
 SUMMARY:🌍 Greenhouse Gas Inventory Data
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:90291df4-78f3-4aff-b6f1-57617a54bfaa
-DTSTAMP:20240220T170140Z
+UID:90cd88ca-ecf1-4fbe-a211-6b543737676a
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241219
 SUMMARY:🇬🇧 Energy prices: July to September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-july-to-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:0a68fe55-e0d7-4564-a5d2-ed182152398c
-DTSTAMP:20240220T170140Z
+UID:3509988b-796f-4d72-9f96-30e845cadf24
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241219
 SUMMARY:🇬🇧 Energy trends and prices: October 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-october-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:73adf72f-f3c4-4d23-842a-f2608a339010
-DTSTAMP:20240220T170140Z
+UID:ce6d0553-43c7-4dd9-84a8-736a42a5744b
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20241219
 SUMMARY:🇬🇧 Energy trends: July to September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-july-to-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:f9b0c74a-c3ba-47cb-a6e1-335190528faf
-DTSTAMP:20240220T170140Z
+UID:4c424eb1-5d98-4abe-bee2-3694ca8a33f2
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20250117
 SUMMARY:🌍 Energy Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:f84ddac3-72a3-4cb7-abaf-3c9b2eb0bd1f
-DTSTAMP:20240220T170140Z
+UID:a2fc4798-ffab-4e53-a07c-f5b20d19ec9d
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20250130
 SUMMARY:🇬🇧 Energy trends and prices: November 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-november-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:5da6e520-614f-4ee2-9c76-371e2a121c53
-DTSTAMP:20240220T170140Z
+UID:577d7abe-8265-426f-b4af-582d78a7382e
+DTSTAMP:20240220T202056Z
 DTSTART;VALUE=DATE:20250620
 SUMMARY:🌍 Environment Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
