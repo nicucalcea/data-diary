@@ -16,32 +16,32 @@ source("R/sources/gov-uk.R")
 # 🇬🇧 UK: Nomis
 source("R/sources/nomis.R")
 
-# 🇬🇧 UK: Bank of England (+ bank rate)
-source("R/sources/boe.R")
+# # 🇬🇧 UK: Bank of England (+ bank rate)
+# source("R/sources/boe.R")
 
-# 🇬🇧 UK: Office for Budget Responsibility
-source("R/sources/obr.R")
+# # 🇬🇧 UK: Office for Budget Responsibility
+# source("R/sources/obr.R")
 
-# 🇬🇧 UK: Halifax
-source("R/sources/halifax.R")
+# # 🇬🇧 UK: Halifax
+# source("R/sources/halifax.R")
 
-# 🇬🇧 UK: NHS Digital
-source("R/sources/nhs-digital.R")
+# # 🇬🇧 UK: NHS Digital
+# source("R/sources/nhs-digital.R")
 
-# 🇬🇧 UK: Ofcom
-source("R/sources/ofcom.R")
+# # 🇬🇧 UK: Ofcom
+# source("R/sources/ofcom.R")
 
-# 🇬🇧 UK: Office of Rail and Road
-source("R/sources/orr.R")
+# # 🇬🇧 UK: Office of Rail and Road
+# source("R/sources/orr.R")
 
-# 🇬🇧 UK: Civil Aviation Authority
-source("R/sources/caa.R")
+# # 🇬🇧 UK: Civil Aviation Authority
+# source("R/sources/caa.R")
 
-# 🇬🇧 UK: Office for Students
-source("R/sources/ofs.R")
+# # 🇬🇧 UK: Office for Students
+# source("R/sources/ofs.R")
 
-# 🇬🇧 UK: Kantar
-source("R/sources/kantar.R")
+# # 🇬🇧 UK: Kantar
+# source("R/sources/kantar.R")
 
 # 🇪🇺 EU: Eurostat
 source("R/sources/eurostat.R")
@@ -52,8 +52,8 @@ source("R/sources/bls.R")
 # 🌍 International: UN
 source("R/sources/un.R")
 
-# 🌍 International: OECD
-source("R/sources/oecd.R")
+# # 🌍 International: OECD
+# source("R/sources/oecd.R")
 
 # 🌍 International: IMF
 source("R/sources/imf.R")
@@ -62,34 +62,41 @@ source("R/sources/imf.R")
 ##                      Classify releases                      ##
 #################################################################
 
-business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "capital formation", "capital stocks", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "Economic and fiscal outlook", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "electricity consumption", "employed people", "employee earnings", "employer skills survey", "employment cost index", "employment situation", "employment survey", "energy consumption in the UK", "energy performance of building certificates", "family food", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house building", "house price", "household costs", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "HMRC survey compliance cost", "import and export", "income estimates", "income from farming", "index of production", "index of services", "industrial turnover", "inflation euro area", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "kantar", "labour", "labor", "market data", "mergers and acquisitions", "money and credit", "national accounts", "pay gap", "price index", "pricing trends", "producer price", "productivity", "profitability", "public sector employment", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "rental sector", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk economic accounts", "uk energy in brief", "uk energy statistics", "union membership", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless", "world economic outlook") |>
+# business_keywords <- c("agriculture in the united kingdom", "annual population survey", "apprenticeship", "balance sheet", "bank rate", "benefit sanctions", "budget allocation", "business", "capital acquisitons", "capital formation", "capital stocks", "claimant count", "construction output", "consumer price", "cost of living", "CPI(H)", "credit union", "domestic rates", "earnings and employment", "earnings and expenses", "economic activity", "Economic and fiscal outlook", "economic estimates", "economic statistics", "economic well-being", "electric vehicle", "electricity consumption", "employed people", "employee earnings", "employer skills survey", "employment cost index", "employment situation", "employment survey", "energy consumption in the UK", "energy performance of building certificates", "family food", "fiscal risk", "fuel prices", "foreign direct investment", "fuel sales", "gdp", "government debt", "gross domestic", "HICP", "house building", "house price", "household costs", "household energy efficiency", "household income", "housing benefit", "housing purchase affordability", "housing survey", "HMRC survey compliance cost", "import and export", "income estimates", "income from farming", "index of production", "index of services", "industrial turnover", "inflation euro area", "interest rate", "international reserves", "insolvency", "job openings", "job seekers", "kantar", "labour", "labor", "market data", "mergers and acquisitions", "money and credit", "national accounts", "pay gap", "price index", "pricing trends", "producer price", "productivity", "profitability", "public sector employment", "public sector finances", "rail fares", "rail passenger numbers", "rail performance", "real earnings", "rental prices", "rental sector", "retail sales", "revenues and expenses", "revenues and spend", "stamp duty", "taxpayers", "tax credit", "tax receipt", "tax relief", "time use", "trade", "trends and prices", "uk economic accounts", "uk energy in brief", "uk energy statistics", "union membership", "universal credit", "unemployment", "vehicle licensing statistics", "weekly earnings", "working and workless", "world economic outlook") |>
+  # paste(collapse = "|")
+
+# important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances", "world economic outlook") |>
+  # paste(collapse = "|")
+
+
+climate_keywords <- c("climate", "environment", "renewable", "fossil", "oil", "gas", "lng", "carbon", "emission", "green", "energy", "mining", "mines") |>
   paste(collapse = "|")
 
-important_keywords <- c("Bank of England Bank Rate", "Consumer price inflation, UK", "GDP monthly estimate", "GDP quarterly national accounts", "Retail sales", "UK labour market", "Public sector finances", "world economic outlook") |>
-  paste(collapse = "|")
 
 #################################################################
 ##                           Combine                           ##
 #################################################################
 
 upcoming_stats <- gov_uk |>
-  filter(!title %in% c(ons$title, nhs_digital$title, ofcom$title)) |>
+  filter(!title %in% c(ons$title
+                       # , nhs_digital$title, ofcom$title
+                       )) |>
   mutate(source = "GOV.UK") |>
   bind_rows(ons |> mutate(source = "ONS")) |>
   # bind_rows(nomis |> mutate(source = "Nomis")) |>
-  bind_rows(boe |> mutate(source = "Bank of England")) |>
-  bind_rows(obr |> mutate(source = "OBR")) |>
-  bind_rows(halifax |> mutate(source = "Halifax")) |>
-  bind_rows(nhs_digital |> mutate(source = "NHS Digital")) |>
-  bind_rows(ofcom |> mutate(source = "Ofcom")) |>
-  bind_rows(orr |> mutate(source = "ORR")) |>
-  bind_rows(caa |> mutate(source = "CAA")) |>
-  bind_rows(ofs |> mutate(source = "OFS")) |>
-  bind_rows(kantar |> mutate(source = "Kantar")) |>
+  # bind_rows(boe |> mutate(source = "Bank of England")) |>
+  # bind_rows(obr |> mutate(source = "OBR")) |>
+  # bind_rows(halifax |> mutate(source = "Halifax")) |>
+  # bind_rows(nhs_digital |> mutate(source = "NHS Digital")) |>
+  # bind_rows(ofcom |> mutate(source = "Ofcom")) |>
+  # bind_rows(orr |> mutate(source = "ORR")) |>
+  # bind_rows(caa |> mutate(source = "CAA")) |>
+  # bind_rows(ofs |> mutate(source = "OFS")) |>
+  # bind_rows(kantar |> mutate(source = "Kantar")) |>
   bind_rows(eurostat |> mutate(source = "Eurostat", country = "European Union")) |>
   bind_rows(bls |> mutate(source = "BLS", country = "United States")) |>
   bind_rows(un |> mutate(source = "UN", country = "International")) |>
-  bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
+  # bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
   bind_rows(imf |> mutate(source = "IMF", country = "International")) |>
   drop_na(date) |>
   filter(!grepl(" time series", title)) |>
@@ -106,9 +113,10 @@ upcoming_stats <- gov_uk |>
          flag = case_when(country == "European Union" ~ "🇪🇺",
                           country == "International" ~ "🌍",
                           T ~ countrycode::countrycode(country, "country.name", "unicode.symbol")),
-         important = grepl(important_keywords, title, ignore.case = T),
-         business = grepl(business_keywords, title, ignore.case = T) | isTRUE(business)) |>
-  arrange(date, desc(important), country, business, title)
+         # important = grepl(important_keywords, title, ignore.case = T),
+         # business = grepl(business_keywords, title, ignore.case = T) | isTRUE(business),
+         climate = grepl(climate_keywords, title, ignore.case = T)) |>
+  arrange(date, country, business, title)
 
 ##################################################################
 ##                        Write to Excel                        ##
@@ -117,8 +125,8 @@ upcoming_stats <- gov_uk |>
 calendar_sheets <- upcoming_stats |>
   filter(date >= lubridate::floor_date(Sys.Date()),
          # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
-         business) |>
-  select(Country = country, Release = title, Date = date, Interest = important, link) |>
+         climate) |>
+  select(Country = country, Release = title, Date = date, link) |>
   identity()
 
 # create and write workbook
@@ -134,7 +142,7 @@ calendar_sheets <- calendar_sheets |>
 
 writeData(wb, "df_sheet", calendar_sheets) # overwrite the sheet to get the new pretty name overlaying the hyperlink
 
-saveWorkbook(wb, "output/biz_cal.xlsx", overwrite = TRUE)
+saveWorkbook(wb, "output/climate_cal.xlsx", overwrite = TRUE)
 
 ##----------------------------------------------------------------
 ##                    Write to Google Sheets                     -
@@ -143,11 +151,11 @@ saveWorkbook(wb, "output/biz_cal.xlsx", overwrite = TRUE)
 calendar_google_sheets <- upcoming_stats |>
   filter(date >= lubridate::floor_date(Sys.Date()),
          # date < lubridate::ceiling_date(Sys.Date() %m+% months(1), "month"),
-         business) |>
+         climate) |>
   mutate(title = gs4_formula(
     paste0('=HYPERLINK("', link, '", "', title, '")')
   )) |>
-  select(flag, country, title, date, important) |>
+  select(flag, country, title, date) |>
   identity()
 
 range_clear("https://docs.google.com/spreadsheets/d/1SAPy0tfzRN66ngdblNeEFhbGy8Q5V96C0DeC9qRo6Wc/edit#gid=891834841", sheet = "Full Schedule", range = "B4:F")
@@ -171,7 +179,7 @@ format_event <- function(start, end, summary, description, tz = "GMT") {
 export_calendar <- function(df, file, tz = "BST") {
   header <- "BEGIN:VCALENDAR\nPRODID:-//MyMeetings/ical //EN\nVERSION:2.0\nCALSCALE:GREGORIAN"
   footer <- "END:VCALENDAR"
-  df <- df |> filter(business)
+  df <- df |> filter(climate)
   f <- file(file)
   open(f, "w")
   writeLines(header, con = f)
@@ -187,4 +195,4 @@ export_calendar <- function(df, file, tz = "BST") {
   close(f)
 }
 
-export_calendar(upcoming_stats, file = "output/biz_cal.ics", tz = "GMT")
+export_calendar(upcoming_stats, file = "output/climate_cal.ics", tz = "GMT")
