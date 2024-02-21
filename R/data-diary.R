@@ -61,6 +61,9 @@ source("R/sources/imf.R")
 # 🌍 International: IEA
 source("R/sources/iea.R")
 
+# 🌍 International: Financial earnings
+source("R/sources/earnings.R")
+
 #################################################################
 ##                      Classify releases                      ##
 #################################################################
@@ -74,6 +77,8 @@ source("R/sources/iea.R")
 
 globalwitness_keywords <- c("climate", "environment", "renewable", "batter", "fossil", "petrol", "oil", "gas", "lng", "carbon", "emission", "green", "energy", "mining", "mines", "mineral", "commodit", "forest") |>
   paste(collapse = "|")
+
+globalwitness_sources <- c("IEA", "Earnings")
 
 
 #################################################################
@@ -102,6 +107,7 @@ upcoming_stats <- gov_uk |>
   # bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
   bind_rows(imf |> mutate(source = "IMF", country = "International")) |>
   bind_rows(iea |> mutate(source = "IEA", country = "International")) |>
+  bind_rows(earnings |> mutate(source = "Earnings", country = "International")) |>
   drop_na(date) |>
   filter(!grepl(" time series", title)) |>
   mutate(title_2 = title) |>
@@ -119,7 +125,7 @@ upcoming_stats <- gov_uk |>
                           T ~ countrycode::countrycode(country, "country.name", "unicode.symbol")),
          # important = grepl(important_keywords, title, ignore.case = T),
          # business = grepl(business_keywords, title, ignore.case = T) | isTRUE(business),
-         globalwitness = grepl(globalwitness_keywords, title, ignore.case = T) | source %in% c("IEA")) |>
+         globalwitness = grepl(globalwitness_keywords, title, ignore.case = T) | source %in% globalwitness_sources) |>
   arrange(date, country, business, title)
 
 ##################################################################

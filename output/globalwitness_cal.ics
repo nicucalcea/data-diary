@@ -3,582 +3,820 @@ PRODID:-//MyMeetings/ical //EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:91c8b7ba-fb85-498a-8d5b-95b8a21aa979
-DTSTAMP:20240221T084107Z
+UID:dc24d953-351e-4f6e-9413-ffd0e842cada
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240105
 SUMMARY:🌍 Commodity Trade Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:b8dabc6b-4c5a-41e5-be1b-3a3ff89318c4
-DTSTAMP:20240221T084107Z
+UID:d3709333-3164-4b01-80a3-f076f064c5fb
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240205
 SUMMARY:🇪🇺 Renewables in transport
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:79dc295b-eafe-485f-86f9-863a5446e3f9
-DTSTAMP:20240221T084107Z
+UID:a55292ab-89dd-4190-b994-6cc73259e5e6
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240209
 SUMMARY:🇪🇺 Businesses in the electricity, gas, steam and air conditioning supply sector
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:4033a4c3-7393-4574-9935-1e60405efa1a
-DTSTAMP:20240221T084107Z
+UID:bd78ba2c-f178-4d4d-a967-12ea64db4389
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240209
 SUMMARY:🇪🇺 Businesses in the mining and quarrying sector
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:c1d9058a-698d-4753-aad3-f51e52cdd9f2
-DTSTAMP:20240221T084107Z
+UID:da99abe5-1f82-4e22-a5d2-b3009ada18eb
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240213
 SUMMARY:🇪🇺 Decomposition of energy production and consumption trends, 2023
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:6d513c24-7e67-405a-aa0b-e0a1d8431ae8
-DTSTAMP:20240221T084107Z
+UID:6e469165-88bd-4864-9753-01303f44c8ae
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240214
 SUMMARY:🇪🇺 Greenhouse gas emissions accounts
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:f678a053-e10e-4781-87ca-9a2b36ada521
-DTSTAMP:20240221T084107Z
+UID:c0b148ad-c350-4451-a59c-c3b571ca75a7
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240214
 SUMMARY:🇪🇺 Monthly energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:84112169-540f-4cd6-9025-b8241f066c3f
-DTSTAMP:20240221T084107Z
+UID:3ed3a468-9364-40e9-bc35-92c683caf64e
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240221
 SUMMARY:🇪🇺 Renewables in electricity generation
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:f1546dd1-0a20-4217-9505-a84e55e7d8b7
-DTSTAMP:20240221T084107Z
+UID:8b67d2b7-d6fe-46a7-819b-496abf146e31
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240221
+SUMMARY:🌍 Marathon Oil Corp.: Q4 2023 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mro-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:acda918c-7236-4a47-a8d2-525846aa8fac
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240222
 SUMMARY:🇬🇧 Green Homes Grant Local Authority Delivery and Home Upgrade Grant: December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/green-homes-grant-local-authority-delivery-and-home-upgrade-grant-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:bb5eeee9-2ab5-486a-9f1c-752c603ed906
-DTSTAMP:20240221T084107Z
+UID:eb7c2e1c-5db4-41f3-9b44-74dd61718d15
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240222
 SUMMARY:🇬🇧 Non-domestic National Energy Efficiency Data-framework 2023: Geographical Annex
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/non-domestic-national-energy-efficiency-data-framework-2023-geographical-annex
 END:VEVENT
 BEGIN:VEVENT
-UID:f3ab99f8-ffbb-477b-998b-3950579d69f7
-DTSTAMP:20240221T084107Z
+UID:9dbaf4f6-a02c-4856-9bfd-8f682382cf8c
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240222
 SUMMARY:🇬🇧 Patient-Led Assessments of the Care Environment (PLACE), 2023 - England
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/patient-led-assessments-of-the-care-environment-place-2023-england
 END:VEVENT
 BEGIN:VEVENT
-UID:144f30d5-b39c-4c92-99e2-abdaa8fe44c9
-DTSTAMP:20240221T084107Z
+UID:53f203f5-90db-472a-bb2c-4ebf5787ca27
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240227
 SUMMARY:🇪🇺 Renewables in heating and cooling
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:e694f277-98de-4e46-b567-afbdfde38b71
-DTSTAMP:20240221T084107Z
+UID:3a79cef7-df33-4ded-bbfb-d3a9acd7bffb
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240227
 SUMMARY:🇪🇺 How much did the price of olive oil change?
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:456a8aff-62ea-46a2-a29d-c82887608cc6
-DTSTAMP:20240221T084107Z
+UID:c0479704-91c4-45b5-b719-39b83b368e97
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240227
 SUMMARY:🌍 Workshop on Batteries
 DESCRIPTION:https://www.iea.org/events/workshop-on-batteries
 END:VEVENT
 BEGIN:VEVENT
-UID:6f4f4774-e6a6-44b3-af8a-8264a4c41e9b
-DTSTAMP:20240221T084107Z
+UID:b49aa433-1db3-4ca6-9f1e-30980a4bdd03
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:4c06f557-d9f2-48cf-8c16-b60b6cbd314c
-DTSTAMP:20240221T084107Z
+UID:5db6effb-4ee5-4576-8086-2c2d6c3f1d00
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Energy trends and prices: December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:7cd36f13-cb8a-495b-a124-2b953f22dc7f
-DTSTAMP:20240221T084107Z
+UID:fbd6a4d5-cbff-4920-8fb9-f2ec1f9af22c
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (quarterly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-quarterly-data--16
 END:VEVENT
 BEGIN:VEVENT
-UID:41417607-1f48-4a31-8a78-05862b155643
-DTSTAMP:20240221T084107Z
+UID:bea367d0-c9eb-4d51-b1ab-9f0099759ed7
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:926c6522-ae8e-4e0a-bb96-740f6c244557
-DTSTAMP:20240221T084107Z
+UID:16f8f446-7be9-4f45-94d9-0289553da037
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240229
 SUMMARY:🇪🇺 Greenhouse gas emissions - carbon footprints
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:19bb7f29-085f-4968-9c71-07403aea1474
-DTSTAMP:20240221T084107Z
+UID:0d4480b8-260c-48e3-a95d-2d15102867c3
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240307
 SUMMARY:🇬🇧 Electricity Consumption and Renewable Generation in Northern Ireland: Year Ending December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/electricity-consumption-and-renewable-generation-in-northern-ireland-year-ending-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:12bc70f3-b0ac-410c-9c32-f8aaf71454d0
-DTSTAMP:20240221T084107Z
+UID:abc8a37c-41ca-4b7d-8eb0-5d33f0607904
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240307
 SUMMARY:🇬🇧 Low carbon and renewable energy economy, UK: 2022
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MzQsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy9sb3djYXJib25hbmRyZW5ld2FibGVlbmVyZ3llY29ub215dWsyMDIyIiwibGlzdFR5cGUiOiJyZWxlYXNlY2FsZW5kYXIifQ.wpbcRFN-GEENrr4fr9a0KAYsNbLmN1ocalL_9VWj9TM
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MzIsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy9sb3djYXJib25hbmRyZW5ld2FibGVlbmVyZ3llY29ub215dWsyMDIyIiwibGlzdFR5cGUiOiJyZWxlYXNlY2FsZW5kYXIifQ.AVub3oxpX0jzl1PozuEWwGGlm1_secVSLg9yM95LoMQ
 END:VEVENT
 BEGIN:VEVENT
-UID:1b1897c8-7b2b-43c7-8cf0-848f8550b7a5
-DTSTAMP:20240221T084107Z
+UID:255e856a-781b-4da3-8230-afe4b7dd0874
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240312
 SUMMARY:🇬🇧 Access to green space in England
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/access-to-green-space-in-england
 END:VEVENT
 BEGIN:VEVENT
-UID:16a13a68-d7e9-4ee0-a438-c98edbafbd0c
-DTSTAMP:20240221T084107Z
+UID:d5ba01a2-cb61-461a-b0f8-d87c85e22a2e
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240313
 SUMMARY:🇪🇺 Monthly energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:e06cf609-0eaf-4bd2-a728-300adb3a013d
-DTSTAMP:20240221T084107Z
+UID:98d942af-4b33-4382-a777-ea3c7994c813
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation, November 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-november-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:7a358c3b-cc53-45af-924c-79b73580256f
-DTSTAMP:20240221T084107Z
+UID:880a1e9d-8573-4ea1-996e-baf991690327
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🇬🇧 Update on experimental estimates of green jobs, UK
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NTEsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy91cGRhdGVvbmV4cGVyaW1lbnRhbGVzdGltYXRlc29mZ3JlZW5qb2JzdWsiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.1Gr3Y8Xn2KJ592MwLQelB_bRAGTyc0nIVf-LMpno3aM
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NDksInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy91cGRhdGVvbmV4cGVyaW1lbnRhbGVzdGltYXRlc29mZ3JlZW5qb2JzdWsiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.K0noM3I0SQuN5O3CpPSjBuzuez-hydSZNQxTfXHIFnw
 END:VEVENT
 BEGIN:VEVENT
-UID:dbd7674b-9644-4ed8-b83a-0afef5bd002c
-DTSTAMP:20240221T084107Z
+UID:a07f19f1-4eea-4621-b06b-97ab34ace1f6
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🇪🇺 Shedding light on energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:34651016-619a-429e-9c5b-d69354807fb2
-DTSTAMP:20240221T084107Z
+UID:3b365e66-6406-4cd0-acf5-07e82e058c78
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240314
 SUMMARY:🌍 Oil Market Report - March 2024
 DESCRIPTION:https://www.iea.org/events/oil-market-report-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:730d6463-906b-45fe-9622-3d554f53533c
-DTSTAMP:20240221T084107Z
+UID:a03d8e84-9898-4d1a-8344-a4237d04ae13
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240315
 SUMMARY:🇪🇺 Energy use by businesses and households
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:0f5c5ff1-504b-4c8d-954f-9bd141a8c803
-DTSTAMP:20240221T084107Z
+UID:23919603-7957-488b-a3ca-c15c387a7cf9
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240315
 SUMMARY:🇪🇺 Physical energy flow accounts
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:1efbbfd8-4ac5-48ba-b166-ea43e75b0be7
-DTSTAMP:20240221T084107Z
+UID:51eac759-f611-44fb-94a1-3124b2d95b8f
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240318
 SUMMARY:🇪🇺 Environmental economy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:047fe963-f8aa-4109-8dec-43b7994f77ac
-DTSTAMP:20240221T084107Z
+UID:357f71d0-0457-4832-96a7-eb35c25534ea
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240318
 SUMMARY:🌍 Africa Energy Efficiency Policy in Emerging Economies Training Week
 DESCRIPTION:https://www.iea.org/events/africa-energy-efficiency-policy-in-emerging-economies-training-week
 END:VEVENT
 BEGIN:VEVENT
-UID:8cacf7bf-48c4-4c3f-ae86-bf81563cf530
-DTSTAMP:20240221T084107Z
+UID:8a0947ac-b5f7-4368-a2da-f04b8d631d3d
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240321
 SUMMARY:🇬🇧 Green Homes Grant Local Authority Delivery and Home Upgrade Grant: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/green-homes-grant-local-authority-delivery-and-home-upgrade-grant-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:d30dcc61-bb45-44e2-87cf-24dea0c89515
-DTSTAMP:20240221T084107Z
+UID:bfd95bb5-6cc3-4cd7-a255-fa8bb392c6b1
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240322
 SUMMARY:🇪🇺 EU imports of energy products - latest developments
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:626e2ddd-51c6-4601-ad89-ae5c6ddf28c7
-DTSTAMP:20240221T084107Z
+UID:c2b19ce7-c9f0-49ee-89ff-f57babfd0f92
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240325
 SUMMARY:🌍 27th Energy Statistics Course
 DESCRIPTION:https://www.iea.org/events/27th-energy-statistics-course
 END:VEVENT
 BEGIN:VEVENT
-UID:6aa2edb2-88bf-495d-8da8-0b9c74a77db1
-DTSTAMP:20240221T084107Z
+UID:e9f40d15-711d-4b8a-80ce-2c7c2221f9d4
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: February 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-february-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:7a5bc90c-09a1-4b9c-8f4c-d5efe1fa25b5
-DTSTAMP:20240221T084107Z
+UID:20fcfc75-df62-4a19-9fca-55081a0a3f81
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Energy prices: October to December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-october-to-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:6bc178c6-0403-410d-8bd1-a451edca91c4
-DTSTAMP:20240221T084107Z
+UID:0d90a469-4231-4613-8f53-e72be6b7618f
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Energy trends and prices: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:abb3f001-e0ae-45f9-9afb-13e5342edf9e
-DTSTAMP:20240221T084107Z
+UID:98ba0e18-1a1a-4f50-a539-238243746bae
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Energy trends: October to December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-october-to-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:defe2dd5-0e49-41fb-83fc-ce3676c5c1c0
-DTSTAMP:20240221T084107Z
+UID:8a0dc055-eaf1-441f-a6ed-c75493e21e40
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Household Energy Efficiency Detailed Report (annual data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-detailed-report-annual-data--4
 END:VEVENT
 BEGIN:VEVENT
-UID:902a59f7-d2c7-40f6-af86-e92ee465585e
-DTSTAMP:20240221T084107Z
+UID:ee35653c-8e8a-4f19-a5fe-eabaeeaac79b
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (monthly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-monthly-data--32
 END:VEVENT
 BEGIN:VEVENT
-UID:a8228642-408e-46db-892f-7bd9227768b3
-DTSTAMP:20240221T084107Z
+UID:f2273a2e-ea85-4dbd-834b-bea5111be85c
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: January 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-january-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:d1f94e22-ef37-4b77-9f7f-4b75baa916d7
-DTSTAMP:20240221T084107Z
+UID:315bb325-2650-491f-88ed-972dbac180e7
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240328
 SUMMARY:🇬🇧 UK greenhouse gas emissions: 2023 provisional figures
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-greenhouse-gas-emissions-2023-provisional-figures
 END:VEVENT
 BEGIN:VEVENT
-UID:180c7ce5-800a-4898-a306-d462e5ff494f
-DTSTAMP:20240221T084107Z
-DTSTART;VALUE=DATE:20240404
-SUMMARY:🇬🇧 Energy, goods and services used by UK businesses: 2022
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6OTIsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy9lbmVyZ3lnb29kc2FuZHNlcnZpY2VzdXNlZGJ5dWtidXNpbmVzc2VzMjAyMiIsImxpc3RUeXBlIjoicmVsZWFzZWNhbGVuZGFyIn0.hK9DuvYAwXl3ESFSs0PNTfwsGRmyJW7_CT9cXaySU1I
+UID:abe93a52-6a5a-414f-829d-a66128dc7ddf
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240402
+SUMMARY:🇪🇺 Environmental economy – statistics on employment and growth
+DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:a340d96c-cd65-4ebe-834f-f4d3d5961481
-DTSTAMP:20240221T084107Z
+UID:d2a5d807-32b2-400a-a70c-4591fb739215
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240404
+SUMMARY:🇬🇧 Energy, goods and services used by UK businesses: 2022
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6OTAsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjEsInVyaSI6Ii9yZWxlYXNlcy9lbmVyZ3lnb29kc2FuZHNlcnZpY2VzdXNlZGJ5dWtidXNpbmVzc2VzMjAyMiIsImxpc3RUeXBlIjoicmVsZWFzZWNhbGVuZGFyIn0.UpL7PfVwI5nDpQeswmtDWpSOL8Z6hy8szrouQntE0lo
+END:VEVENT
+BEGIN:VEVENT
+UID:c525ad3a-30ae-4a7f-9478-6f00fb0ff6cf
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240409
 SUMMARY:🌍 Workshop on Renewables Integration
 DESCRIPTION:https://www.iea.org/events/workshop-on-renewables-integration
 END:VEVENT
 BEGIN:VEVENT
-UID:7d4d1db5-2550-4f94-9dd3-f8f8ba2e4760
-DTSTAMP:20240221T084107Z
+UID:0d0623dd-aefa-44b4-9518-5ce528b50e7b
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240411
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation, December 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-december-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:52eaf59f-eae1-4cd6-94f2-27810cd0d017
-DTSTAMP:20240221T084107Z
+UID:58eba013-8b25-41f1-9296-8b733b1d950f
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240423
+SUMMARY:🌍 Eni S.p.A.: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/eipaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:57d59dda-b8b7-484e-8bfe-da62fb07e15c
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240424
+SUMMARY:🌍 Marathon Petroleum Corporation: Annual General Meeting
+DESCRIPTION:https://markets.businessinsider.com/stocks/mpc-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:72da6dea-30e9-4714-86fa-7744b575cdfd
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240425
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: January to March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-january-to-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:385b113a-9bb7-44af-9ea9-1ce54cf2899d
-DTSTAMP:20240221T084107Z
+UID:67fe9926-fa53-4677-83c4-8c175e707c0a
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240425
 SUMMARY:🇬🇧 Energy trends and prices: February 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-february-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:54f473d2-fe3d-4567-aefe-8761193111ce
-DTSTAMP:20240221T084107Z
+UID:b23526b5-0df7-4464-99d0-e044e724adce
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240425
+SUMMARY:🌍 Valero Energy Corp.: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/vlo-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:07b1b251-d305-4042-861c-4c964f80b556
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240426
+SUMMARY:🌍 Chevron Corp.: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/cvx-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:542d72ea-2a3a-4cb6-838b-7bd9c962fd5c
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240426
+SUMMARY:🌍 ExxonMobil Corp. (Exxon Mobil): Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/xom-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:8416cb15-41ed-4a63-97f5-6db779c48ed6
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240426
 SUMMARY:🌍 Global Summit on People-Centred Clean Energy Transitions
 DESCRIPTION:https://www.iea.org/events/global-summit-on-people-centred-clean-energy-transitions
 END:VEVENT
 BEGIN:VEVENT
-UID:230c1dfb-4452-4cba-be9e-a7df94d90bd8
-DTSTAMP:20240221T084107Z
-DTSTART;VALUE=DATE:20240507
-SUMMARY:🇬🇧 UK environmental taxes: 2023
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MzQsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy91a2Vudmlyb25tZW50YWx0YXhlczIwMjMiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.qdj77-337cdOHqhOrbEAj6TrhzzvpGO06_uELH_XKLQ
+UID:e1f1a7f1-e789-4c62-af1a-2e436d6f0c1d
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240426
+SUMMARY:🌍 Phillips 66: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/psx-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:587432e3-8335-4789-bc48-5557d90d19c7
-DTSTAMP:20240221T084107Z
+UID:8da8d694-5002-4ac1-9ada-184c3c9457b7
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240430
+SUMMARY:🌍 Marathon Petroleum Corporation: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mpc-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:56ca35f5-1346-434a-8eb1-7048ce7a49d0
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240501
+SUMMARY:🌍 Marathon Oil Corp.: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mro-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:dda3f6cb-8f71-4586-b86e-8c130009c665
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240502
+SUMMARY:🌍 ConocoPhillips: Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/cop-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:cecbb894-6b6c-4972-8794-d19fd35ace84
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240502
+SUMMARY:🌍 Shell (ex Royal Dutch Shell): Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/rydaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:22ddf724-70bc-4848-93c1-067ff3ee018b
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240507
+SUMMARY:🇬🇧 UK environmental taxes: 2023
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6MzIsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy91a2Vudmlyb25tZW50YWx0YXhlczIwMjMiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.i4f29-2GSkrf2WTxzPi14n1EvZeMY8-xL842tWf5rxY
+END:VEVENT
+BEGIN:VEVENT
+UID:fbb0d55b-38c3-49d9-9803-01846b168278
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240507
+SUMMARY:🌍 BP plc (British Petrol): Q1 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/bpaqf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:af5538cc-cd1a-4af8-8856-bf459264dc47
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240514
 SUMMARY:🌍 IEA Summit on Clean Cooking in Africa
 DESCRIPTION:https://www.iea.org/events/iea-summit-on-clean-cooking-in-africa
 END:VEVENT
 BEGIN:VEVENT
-UID:887b50d2-3d4c-4de5-9515-a4d21e91d4ac
-DTSTAMP:20240221T084107Z
+UID:96aac314-482b-4277-b126-eb83ac591ab9
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240516
 SUMMARY:🇬🇧 Joint Forest Sector Questionnaire: Provisional 2023 data
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/joint-forest-sector-questionnaire-provisional-2023-data
 END:VEVENT
 BEGIN:VEVENT
-UID:5aaaa041-4a71-4cf3-8897-3063a2f624d2
-DTSTAMP:20240221T084107Z
+UID:b295e0f6-ed01-4c06-8fe8-c153a4224782
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240517
 SUMMARY:🇬🇧 Low Carbon and Renewable Energy Economy (LCREE) Survey: Indirect estimates
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NTQsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy9sb3djYXJib25hbmRyZW5ld2FibGVlbmVyZ3llY29ub215bGNyZWVzdXJ2ZXlpbmRpcmVjdGVzdGltYXRlcyIsImxpc3RUeXBlIjoicmVsZWFzZWNhbGVuZGFyIn0.hWEa16eR2luPMfSSmxPimRIf2Hy4Piz-tOlCjuTs7wI
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NTIsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy9sb3djYXJib25hbmRyZW5ld2FibGVlbmVyZ3llY29ub215bGNyZWVzdXJ2ZXlpbmRpcmVjdGVzdGltYXRlcyIsImxpc3RUeXBlIjoicmVsZWFzZWNhbGVuZGFyIn0.cKgYAhiyLSnKSzCG_b4xwVhtGOY9Lf-OMytI1k-Fho8
 END:VEVENT
 BEGIN:VEVENT
-UID:c19a9d65-cf0b-4bb1-b3c5-8993aa164ebc
-DTSTAMP:20240221T084107Z
+UID:70718afc-1eba-4952-ab94-6f91711bcab8
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240521
+SUMMARY:🌍 Shell (ex Royal Dutch Shell): Annual General Meeting
+DESCRIPTION:https://markets.businessinsider.com/stocks/rydaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:986b44ad-75f0-4391-9db4-e4a255822ac4
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240530
 SUMMARY:🇬🇧 Energy trends and prices: March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:d9dd430b-8978-4672-8470-21f81ce6e152
-DTSTAMP:20240221T084107Z
+UID:d86ce9cd-cc56-4423-8169-a00b18d0cdf6
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240530
 SUMMARY:🇬🇧 Northern Ireland Environmental Statistics Report 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/northern-ireland-environmental-statistics-report-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:a77af531-6a22-4eef-b1fa-4f1dc7f1213a
-DTSTAMP:20240221T084107Z
+UID:4a5c11fd-5aad-48d3-b09b-7aa49714274d
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240604
 SUMMARY:🇬🇧 UK Environmental Accounts: 2024
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NzEsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy91a2Vudmlyb25tZW50YWxhY2NvdW50czIwMjQiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.TnJMLOEqb25hl1MNPWuZZ0lH-Y1KFJMXeG-cNWeox24
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6NjksInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy91a2Vudmlyb25tZW50YWxhY2NvdW50czIwMjQiLCJsaXN0VHlwZSI6InJlbGVhc2VjYWxlbmRhciJ9.Vb8CZQhu6v8qpbywt0NBnwrUk-FudP8PqEjraXBDe8s
 END:VEVENT
 BEGIN:VEVENT
-UID:fb299f67-a9d2-420b-997e-3650404dc5a8
-DTSTAMP:20240221T084107Z
+UID:652fb334-e311-46a5-a23e-b7a4cd247ee5
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240620
 SUMMARY:🇬🇧 Forestry Commission Key Performance Indicators: Report for 2023-24
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-commission-key-performance-indicators-report-for-2023-24
 END:VEVENT
 BEGIN:VEVENT
-UID:df1154f6-952e-47d7-9e06-1249498ed611
-DTSTAMP:20240221T084107Z
+UID:790a1e99-8476-40a5-9a9e-964dc63596bd
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240621
 SUMMARY:🇬🇧 Environmental Protection Expenditure Survey, UK: 2022
-DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6OTcsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy9lbnZpcm9ubWVudGFscHJvdGVjdGlvbmV4cGVuZGl0dXJlc3VydmV5dWsyMDIyIiwibGlzdFR5cGUiOiJyZWxlYXNlY2FsZW5kYXIifQ.exkdMU3_frxXaDtzYsXRRLbn1z6xi5jPngOJ3Pa3anI
+DESCRIPTION:https://www.ons.gov.uk/redir/eyJhbGciOiJIUzI1NiJ9.eyJpbmRleCI6OTUsInBhZ2VTaXplIjoxMDAsInBhZ2UiOjIsInVyaSI6Ii9yZWxlYXNlcy9lbnZpcm9ubWVudGFscHJvdGVjdGlvbmV4cGVuZGl0dXJlc3VydmV5dWsyMDIyIiwibGlzdFR5cGUiOiJyZWxlYXNlY2FsZW5kYXIifQ.1AKUe3--ePYM987PAWoZ-cGtlw1dnjS80FZ3fGdGwXM
 END:VEVENT
 BEGIN:VEVENT
-UID:4043954c-1331-4339-ac82-eec972b04ac4
-DTSTAMP:20240221T084107Z
+UID:9a8ff8dd-5107-48ae-9f85-cc0f4bdbfb99
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Energy prices: January to March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-january-to-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:dc1be316-e909-4c3e-8890-a30b2ed9087d
-DTSTAMP:20240221T084107Z
+UID:dd2748a6-f0a7-43f9-994e-a1b1407ee04b
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Energy trends and prices: April 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-april-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:2e3c904d-0322-4b6b-b8af-e10e5066745f
-DTSTAMP:20240221T084107Z
+UID:0a6ea844-da04-4c1b-81fe-1ac8b39c1d5e
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Energy trends: January to March 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-january-to-march-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:da84b312-f092-4625-b344-a3a5bf09fdc7
-DTSTAMP:20240221T084107Z
+UID:e4416d63-a9f7-4ef8-b1d2-62e9bcd12a76
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 Local authority greenhouse gas emissions: 2022 estimates
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/local-authority-greenhouse-gas-emissions-2022-estimates
 END:VEVENT
 BEGIN:VEVENT
-UID:dbbf166b-49bd-4e7a-a4c5-293dc927af59
-DTSTAMP:20240221T084107Z
+UID:11956121-c0f1-46e4-99ee-761586f2d2dc
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240627
 SUMMARY:🇬🇧 UK road transport energy consumption at regional and local authority level, 2005 to 2022
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-road-transport-energy-consumption-at-regional-and-local-authority-level-2005-to-2022
 END:VEVENT
 BEGIN:VEVENT
-UID:8b0bc3b1-4f80-4654-bf7a-e3d8a00235b5
-DTSTAMP:20240221T084107Z
+UID:0daa914f-0ef5-4f23-b456-4431a10a8802
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240725
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: April to June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-april-to-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:71b7e1c7-c7b4-4a0e-b2eb-04acdb997b70
-DTSTAMP:20240221T084107Z
+UID:bf9e9222-bd7e-49a5-bee1-03ac91e7f085
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240725
+SUMMARY:🌍 Eni S.p.A.: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/eipaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:eae4a558-04f8-4943-8239-1b42eb75cded
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240725
+SUMMARY:🌍 Valero Energy Corp.: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/vlo-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:8090b5f3-c54d-4902-a467-d2cc303b5354
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240726
+SUMMARY:🌍 Chevron Corp.: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/cvx-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:a60617d7-cf96-4a9a-9731-c2283c9b7ceb
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240726
+SUMMARY:🌍 ExxonMobil Corp. (Exxon Mobil): Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/xom-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:b6a3be7b-60b5-441f-92b1-705473058798
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240726
+SUMMARY:🌍 Phillips 66: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/psx-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:3e969d25-2af8-438c-9744-79f3e25b65db
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 Digest of UK Energy Statistics – 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/digest-of-uk-energy-statistics-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:3931d91d-8aca-4cae-b4bd-2ab32411341e
-DTSTAMP:20240221T084107Z
+UID:0230dc1f-33f8-4347-9fb4-7849c7356fb5
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 Energy Flow Chart – 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-flow-chart-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:213689c5-47f2-44c9-b693-592822ae5c0b
-DTSTAMP:20240221T084107Z
+UID:a47c871e-38b6-4127-95ff-6603f6603c5a
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 Energy trends and prices: May 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-may-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:cdf9327b-0ed5-4f98-86d6-050f2f55ded0
-DTSTAMP:20240221T084107Z
+UID:91696214-bc4a-46d6-bbcc-189490fcc4dc
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240730
 SUMMARY:🇬🇧 UK Energy in Brief – 2023
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-energy-in-brief-2023
 END:VEVENT
 BEGIN:VEVENT
-UID:379d23e5-7ba4-413a-bce1-a4480b9c09ff
-DTSTAMP:20240221T084107Z
+UID:bfad0ab7-4e0d-4bc7-8592-1ec6cbb21df6
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240730
+SUMMARY:🌍 BP plc (British Petrol): Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/bpaqf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:22e60745-a44e-4b82-8e6b-cbf663b320bc
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240730
+SUMMARY:🌍 Marathon Petroleum Corporation: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mpc-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:76e9724b-eff0-4534-b3f5-bfa78a985ea2
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240731
+SUMMARY:🌍 Marathon Oil Corp.: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mro-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:cbb73dbc-53ae-4ac9-9f5d-02537a6553f6
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240801
+SUMMARY:🌍 ConocoPhillips: Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/cop-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:fc9eba55-34cb-4146-882c-6234b06f3286
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20240801
+SUMMARY:🌍 Shell (ex Royal Dutch Shell): Q2 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/rydaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:1abddb8a-12d9-4937-b95c-735e96439580
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240829
 SUMMARY:🇬🇧 Energy trends and prices: June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:c4d6c06b-5e39-4afc-84a1-028677ac30f6
-DTSTAMP:20240221T084107Z
+UID:e8b62722-8e72-4a7e-be01-37768ee56e09
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Energy prices: April to June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-april-to-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:24f6b5cd-95e9-4e08-b071-77d6b46b8d63
-DTSTAMP:20240221T084107Z
+UID:4d04abbd-5409-4451-b0a9-c5adcf7bbb94
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Energy trends and prices: July 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-july-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:c3d9deed-910e-4898-bf4c-781ef278b81c
-DTSTAMP:20240221T084107Z
+UID:fd2342dc-61c7-482a-af6b-884c45ebe336
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Energy trends: April to June 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-april-to-june-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:bb6161c6-d37b-4db6-bbb0-89fbcaebf98c
-DTSTAMP:20240221T084107Z
+UID:a447a2ad-8ea0-447e-a5e5-e85275ae34bd
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Forestry Facts and Figures 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-facts-and-figures-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:64af752d-8493-43c2-9a92-2b4a7b0eea38
-DTSTAMP:20240221T084107Z
+UID:b65471d9-f934-4772-aff9-3f4d2e922add
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20240926
 SUMMARY:🇬🇧 Forestry Statistics 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-statistics-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:23194a49-1ac4-42ab-8a8d-520720f83a9e
-DTSTAMP:20240221T084107Z
+UID:1752e0a6-3e96-433d-a503-708edfad92d5
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241024
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: July to September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-july-to-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:da2cd1f2-b353-4911-bb04-7c4cd221f79c
-DTSTAMP:20240221T084107Z
+UID:31f2a270-055e-4eb7-beef-271009dd9180
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241024
+SUMMARY:🌍 Eni S.p.A.: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/eipaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:fbe42e4a-cbd9-446a-a718-37bcb032893e
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241024
+SUMMARY:🌍 Valero Energy Corp.: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/vlo-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:05b7e648-baab-43e9-b0f7-4485f70255d1
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241025
+SUMMARY:🌍 Chevron Corp.: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/cvx-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:9be77ff2-2edc-44d8-bf78-c02c801a038e
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241025
+SUMMARY:🌍 ExxonMobil Corp. (Exxon Mobil): Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/xom-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:52d2d5c0-cce8-4066-abff-165b2ea06d4a
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241025
+SUMMARY:🌍 Phillips 66: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/psx-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:d09bf985-1f45-4f14-abc3-5fee0871acbd
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241029
+SUMMARY:🌍 BP plc (British Petrol): Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/bpaqf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:0a84240a-2ee9-49af-a4ac-e75627e01b10
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241029
+SUMMARY:🌍 Marathon Petroleum Corporation: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mpc-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:4ee59848-7643-4f88-8e3e-76efa62b0a71
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241030
+SUMMARY:🌍 Marathon Oil Corp.: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/mro-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:bc3d98b2-f89d-4ff0-a857-b17c743ae716
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241031
 SUMMARY:🇬🇧 Energy trends and prices: August 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-august-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:db7a2dee-4f22-42f2-bf66-97d9b649e27a
-DTSTAMP:20240221T084107Z
+UID:a27474e1-3287-4524-94dd-e318634b736d
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241031
+SUMMARY:🌍 ConocoPhillips: Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/cop-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc13258-cef0-4579-8da9-b6744078c120
+DTSTAMP:20240221T115022Z
+DTSTART;VALUE=DATE:20241031
+SUMMARY:🌍 Shell (ex Royal Dutch Shell): Q3 2024 Earnings
+DESCRIPTION:https://markets.businessinsider.com/stocks/rydaf-stock
+END:VEVENT
+BEGIN:VEVENT
+UID:9a5dadb7-590b-4c88-9858-fbf2160e6365
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241128
 SUMMARY:🇬🇧 Energy trends and prices: September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:fa6a473c-3015-4e44-8e1b-cb99359c77b6
-DTSTAMP:20240221T084107Z
+UID:2e2ede22-1fe5-4f18-a2a2-fc4d9ea512ce
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241201
 SUMMARY:🌍 Greenhouse Gas Inventory Data
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:10ed0f9b-537c-4446-be8b-ad2620b2e842
-DTSTAMP:20240221T084107Z
+UID:5246306c-6af4-4f28-950f-9fab324df43d
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241219
 SUMMARY:🇬🇧 Energy prices: July to September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-july-to-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:0b10550d-25c3-419c-8041-6820f7186b6f
-DTSTAMP:20240221T084107Z
+UID:1e74d630-aa9f-4070-b4f7-4404c5403b30
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241219
 SUMMARY:🇬🇧 Energy trends and prices: October 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-october-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:d2ae1e7b-3628-4ef1-bc1b-fefa092f5ed1
-DTSTAMP:20240221T084107Z
+UID:ddfc16c8-3ed1-407c-abac-dbb3f503841e
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20241219
 SUMMARY:🇬🇧 Energy trends: July to September 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-july-to-september-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:5699518f-f398-4710-bba0-4d084d146087
-DTSTAMP:20240221T084107Z
+UID:27fa320c-227f-43c1-80f1-9ae45c8bd939
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20250117
 SUMMARY:🌍 Energy Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:277b88ce-ca0c-4c33-8a29-13a10c8e95c1
-DTSTAMP:20240221T084107Z
+UID:5d63c470-6b9d-4600-a5fe-2edcf24514a7
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20250130
 SUMMARY:🇬🇧 Energy trends and prices: November 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-november-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:e7152940-6259-460e-a385-a2a6f4444545
-DTSTAMP:20240221T084107Z
+UID:6614fcf7-8da1-48d3-95a9-a18037fcf4f7
+DTSTAMP:20240221T115022Z
 DTSTART;VALUE=DATE:20250620
 SUMMARY:🌍 Environment Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
