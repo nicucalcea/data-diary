@@ -3,6 +3,8 @@ library(httr)
 library(rvest)
 library(lubridate)
 
+# https://markets.businessinsider.com/earnings-calendar
+
 scrape_earnings <- function(company) {
 
   headers = c(
@@ -50,9 +52,7 @@ scrape_earnings <- function(company) {
 
 }
 
-earnings <- scrape_earnings("Shell (ex Royal Dutch Shell)")
-
-earnings <- map(c("Shell (ex Royal Dutch Shell)", "BP plc (British Petrol)", "ExxonMobil Corp. (Exxon Mobil)", "Chevron Corp.", "Marathon Petroleum Corporation", "Marathon Oil Corp.", "Phillips 66", "Valero Energy Corp.", "Eni S.p.A.", "ConocoPhillips"),
+earnings <- map(c("Shell (ex Royal Dutch Shell)", "BP plc (British Petrol)", "ExxonMobil Corp. (Exxon Mobil)", "Chevron Corp.", "Marathon Petroleum Corporation", "Marathon Oil Corp.", "Phillips 66", "Valero Energy Corp.", "Eni S.p.A.", "ConocoPhillips", "TOTAL S.A."),
                 scrape_earnings) |>
   bind_rows() |>
   arrange(desc(date))

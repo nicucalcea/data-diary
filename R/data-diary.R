@@ -107,7 +107,7 @@ upcoming_stats <- gov_uk |>
   # bind_rows(oecd |> mutate(source = "OECD", country = "International")) |>
   bind_rows(imf |> mutate(source = "IMF", country = "International")) |>
   bind_rows(iea |> mutate(source = "IEA", country = "International")) |>
-  bind_rows(earnings |> mutate(source = "Earnings", country = "International")) |>
+  bind_rows(earnings |> mutate(source = "Earnings", country = "Corporate")) |>
   drop_na(date) |>
   filter(!grepl(" time series", title)) |>
   mutate(title_2 = title) |>
@@ -119,9 +119,10 @@ upcoming_stats <- gov_uk |>
   select(-title_1, - title_2) |>
   mutate(date = as.Date(date),
          country = ifelse(is.na(country), "United Kingdom", country),
-         country = factor(country, levels = c("United Kingdom", "European Union", "United States", "International")),
+         country = factor(country, levels = c("United Kingdom", "European Union", "United States", "International", "Corporate")),
          flag = case_when(country == "European Union" ~ "🇪🇺",
                           country == "International" ~ "🌍",
+                          country == "Corporate" ~ "💲",
                           T ~ countrycode::countrycode(country, "country.name", "unicode.symbol")),
          # important = grepl(important_keywords, title, ignore.case = T),
          # business = grepl(business_keywords, title, ignore.case = T) | isTRUE(business),
