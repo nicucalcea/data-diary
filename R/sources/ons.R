@@ -9,24 +9,24 @@ scrape_ons <- function(page_nr = 1) {
 
   data_all <- tibble()
 
-  while (page_date < max_date) {
+  while (page_date < max_date && page_nr <= 100) {
     Sys.sleep(1)
     print(paste0("Scraping page ", page_nr))
 
     # Scrape the current page
-    page_raw <- read_html(paste0("https://www.ons.gov.uk/releasecalendar?size=100&view=upcoming&page=", page_nr))
+    page_raw <- read_html(paste0("https://www.ons.gov.uk/releasecalendar?release-type=type-upcoming&sort=date-newest&page=", page_nr))
 
     page_title <- page_raw |>
-      html_nodes(".search-results__title span") |>
+      html_nodes(".ons-u-fs-m") |>
       html_text(trim = T)
 
     page_link <- page_raw |>
-      html_nodes(".search-results__title a") |>
+      html_nodes(".ons-u-fs-m") |>
       html_attr('href') %>%
       paste0("https://www.ons.gov.uk", .)
 
     page_date <- page_raw |>
-      html_nodes("p.flush") |>
+      html_nodes(".ons-u-mt-xs span:nth-of-type(2)") |>
       html_text() |>
       lubridate::dmy_hm()
 
