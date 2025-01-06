@@ -3,7 +3,7 @@ library(rvest)
 
 scrape_iea <- function() {
 
-  iea_raw <- read_html("https://www.iea.org/events") |>
+  iea_raw <- read_html("https://www.iea.org/events/upcoming") |>
     html_nodes(".m-grid--event") |>
     pluck(1)
 
