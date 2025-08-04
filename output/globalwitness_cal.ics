@@ -3,675 +3,598 @@ PRODID:-//MyMeetings/ical //EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:e65b785e-d1a5-442f-baf0-64f48abbb84c
-DTSTAMP:20250702T093806Z
+UID:1030b729-f437-492e-b7d3-1ce90fad5a95
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20241201
 SUMMARY:🌍 Greenhouse Gas Inventory Data
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:4959137e-51f4-4f41-85bc-13725743bbee
-DTSTAMP:20250702T093806Z
+UID:5cae2634-9d22-4aad-933c-0f7f74b54728
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250620
 SUMMARY:🌍 Environment Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:708fc2a0-f96f-4d56-8eb9-f445eb706536
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250701
-SUMMARY:🌍 Commodity Trade Statistics Database
-DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
+UID:5bb77759-8f5f-4cef-879a-09c5745c8321
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250801
+SUMMARY:🌍 Republic of Congo: Technical Assistance Report-Assessment and Reform of Petroleum Product Subsidies
+DESCRIPTION:https://www.imf.org/en/Publications/technical-assistance-reports/Issues/2025/08/01/Republic-of-Congo-Technical-Assistance-Report-Assessment-and-Reform-of-Petroleum-Product-569237
 END:VEVENT
 BEGIN:VEVENT
-UID:fd80b9e7-3473-4ef0-b6d5-c941bc7dfadf
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250702
-SUMMARY:🇪🇺 Energy production and imports, early estimates
-DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:a4cba3ce-9390-46c5-9b0f-cefc61068dd5
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250703
-SUMMARY:🇬🇧 Local authority greenhouse gas emissions: 2023 estimates
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/local-authority-greenhouse-gas-emissions-2023-estimates
-END:VEVENT
-BEGIN:VEVENT
-UID:9fa702eb-19b3-4b8e-861b-c07ab9e054a2
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250709
-SUMMARY:🇬🇧 Low carbon and renewable energy economy, UK: 2023
-DESCRIPTION:https://www.ons.gov.uk/releases/lowcarbonandrenewableenergyeconomyuk2023
-END:VEVENT
-BEGIN:VEVENT
-UID:65b828a3-d9ab-4fef-8b86-5d59a693c8d4
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250710
-SUMMARY:🇬🇧 Public opinion of forestry 2025: UK and England
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/public-opinion-of-forestry-2025-uk-and-england
-END:VEVENT
-BEGIN:VEVENT
-UID:2985bf19-3509-4c59-95ab-dec89832d2f2
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250710
-SUMMARY:🇬🇧 Renewables obligation: certificates and generation: March 2025
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-march-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:46a17a56-7430-4190-ae7f-4e9492a4efa8
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250711
-SUMMARY:🌍 Oil Market Report – July 2025
-DESCRIPTION:https://www.iea.org/events/oil-market-report-july-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:a82f2923-a802-4411-b01a-fc458a48b6ec
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250715
-SUMMARY:🇪🇺 Monthly energy
-DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:6f2f2e36-a167-4812-be21-620964ac8233
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250717
-SUMMARY:🇬🇧 English Housing Survey 2023 to 2024: Climate Resilient Homes - fact sheet
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/english-housing-survey-2023-to-2024-climate-resilient-homes-fact-sheet--2
-END:VEVENT
-BEGIN:VEVENT
-UID:46a2b736-2543-4288-8345-8b47a391e62f
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250717
-SUMMARY:🇪🇺 Energy consumption in services
-DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:49652e8e-d0eb-46d8-90cf-c40f941c3e50
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250718
-SUMMARY:🇬🇧 Experimental estimates of green jobs, UK: 2025
-DESCRIPTION:https://www.ons.gov.uk/releases/experimentalestimatesofgreenjobsuk2025
-END:VEVENT
-BEGIN:VEVENT
-UID:4f57d3e4-6fb5-478f-9893-b3f9cedf2fff
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250722
-SUMMARY:🇪🇺 Environmental taxes by economic activity
-DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:92faa79e-e1b2-4583-8e04-ba9e7c5fa331
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250724
-SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (monthly data)
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-monthly-data--43
-END:VEVENT
-BEGIN:VEVENT
-UID:6c7e0791-6cd1-497e-a506-21bedb150bd8
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250724
-SUMMARY:💲 TOTAL S.A.: Q2 2025 Earnings
-DESCRIPTION:https://markets.businessinsider.com/stocks/ttfnf-stock
-END:VEVENT
-BEGIN:VEVENT
-UID:378ba83f-8074-46a9-886b-d1e718c1b770
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250724
-SUMMARY:💲 Valero Energy Corp.: Q2 2025 Earnings
-DESCRIPTION:https://markets.businessinsider.com/stocks/vlo-stock
-END:VEVENT
-BEGIN:VEVENT
-UID:afbc3237-9c9b-4cd7-92a0-4dff6dd68813
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250725
-SUMMARY:🇪🇺 Energy consumption in industry
-DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:0c2d2e81-e4c0-40cf-93a5-29b5df13e5e2
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250725
-SUMMARY:💲 Chevron Corp.: Q2 2025 Earnings
-DESCRIPTION:https://markets.businessinsider.com/stocks/cvx-stock
-END:VEVENT
-BEGIN:VEVENT
-UID:49581e9e-5f42-4bd9-b10b-b47ec3af4903
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250725
-SUMMARY:💲 ExxonMobil Corp. (Exxon Mobil): Q2 2025 Earnings
-DESCRIPTION:https://markets.businessinsider.com/stocks/xom-stock
-END:VEVENT
-BEGIN:VEVENT
-UID:7dcda71f-0e6a-4931-959b-cbe26d2d3a4e
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250725
-SUMMARY:💲 Phillips 66: Q2 2025 Earnings
-DESCRIPTION:https://markets.businessinsider.com/stocks/psx-stock
-END:VEVENT
-BEGIN:VEVENT
-UID:e27a09b5-56ff-4054-bd04-cf7cbe9b58ad
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Boiler Upgrade Scheme: June 2025
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-june-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:a9726d08-7241-40df-8d51-268989c6bbd1
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Digest of UK Energy Statistics – 2024
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/digest-of-uk-energy-statistics-2024
-END:VEVENT
-BEGIN:VEVENT
-UID:7826877b-43de-491f-9cf4-f8c403ebf753
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Energy Flow Chart – 2024
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-flow-chart-2024
-END:VEVENT
-BEGIN:VEVENT
-UID:02b77ce8-23ca-4e49-b881-23f0b9f97c6d
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: April to June 2025
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-april-to-june-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:cbf25b89-588c-4fbc-a582-7b3bfb81e355
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Energy trends and prices: May 2025
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-may-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:2be8e8b8-b08b-4279-8372-c89f1ff00e1a
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
+UID:fc9aabf1-2ef8-40d5-bb11-aafc406a9850
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250805
 SUMMARY:🇬🇧 Estimates of quarterly greenhouse gas emissions (residence basis), UK: Quarter 1 (Jan to Mar) 2025
 DESCRIPTION:https://www.ons.gov.uk/releases/estimatesofquarterlygreenhousegasemissionsresidencebasisukquarter1jantomar2025
 END:VEVENT
 BEGIN:VEVENT
-UID:b3f4b0fa-f09e-499d-8ef0-22b315db448d
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Green Homes Grant Local Authority Delivery and Home Upgrade Grant: May 2025
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/green-homes-grant-local-authority-delivery-and-home-upgrade-grant-may-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:528a4cdc-1c90-4ab5-a38f-882e56b1a52c
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Hydrocarbon Oils Bulletin
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/hydrocarbon-oils-bulletin--16
-END:VEVENT
-BEGIN:VEVENT
-UID:b6ff43a7-e73e-4397-8f0c-70ca2164df0b
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: May 2025
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-may-2025
-END:VEVENT
-BEGIN:VEVENT
-UID:7f80a408-f972-48af-9bc8-a7c709def85e
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 Sub-national total final energy consumption during 2023
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/sub-national-total-final-energy-consumption-during-2023
-END:VEVENT
-BEGIN:VEVENT
-UID:ff00000e-b7ff-4e68-9d3f-283620aca73b
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:🇬🇧 UK Energy in Brief – 2024
-DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-energy-in-brief-2024
-END:VEVENT
-BEGIN:VEVENT
-UID:cc72f8e6-1616-4175-a61e-ffdd1efdd5bb
-DTSTAMP:20250702T093806Z
-DTSTART;VALUE=DATE:20250731
-SUMMARY:💲 Shell (ex Royal Dutch Shell): Q2 2025 Earnings
-DESCRIPTION:https://markets.businessinsider.com/stocks/rydaf-stock
-END:VEVENT
-BEGIN:VEVENT
-UID:eb1af3fd-da9e-4a8c-badf-27286546044a
-DTSTAMP:20250702T093806Z
+UID:d2af5514-ca3e-4fdc-a054-3d41419a2e9e
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250805
 SUMMARY:💲 BP plc (British Petrol): Q2 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/bpaqf-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:6a141bbf-21a3-4ff2-8550-85d08bb55ae7
-DTSTAMP:20250702T093806Z
+UID:813c84cd-8ffc-449a-80e5-69da6bed009b
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250805
 SUMMARY:💲 Marathon Petroleum Corporation: Q2 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/mpc-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:a0891d3c-09ff-4323-be00-d464641a5e44
-DTSTAMP:20250702T093806Z
+UID:62c19fcf-9403-4a4e-8f23-12c2014dbbb3
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250807
 SUMMARY:💲 ConocoPhillips: Q2 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/cop-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:6fdd3a36-b04a-4379-adef-537b902917fd
-DTSTAMP:20250702T093806Z
+UID:daab2e06-cfed-449b-b8f3-c159b68c3c4d
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250813
 SUMMARY:🌍 Oil Market Report – August 2025
 DESCRIPTION:https://www.iea.org/events/oil-market-report-august-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:523f6031-1ba9-4870-9bf4-9c7d142dff87
-DTSTAMP:20250702T093806Z
+UID:a4cf25ae-da54-4e7f-b8c2-a480ca2ab8f4
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250814
+SUMMARY:🇬🇧 Renewable Transport Fuel Obligation (RTFO) statistics 2024: Fifth provisional release
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewable-fuel-statistics-2024-fifth-provisional-release
+END:VEVENT
+BEGIN:VEVENT
+UID:1ed7847c-8cec-46ea-9790-bf02ac0a4e0d
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250814
+SUMMARY:🇬🇧 Renewable Transport Fuel Obligation (RTFO) statistics 2025: First provisional release
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewable-fuel-statistics-2025-first-provisional-release
+END:VEVENT
+BEGIN:VEVENT
+UID:b584f19d-564c-4100-b3e2-8d4443532a54
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250814
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: April 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-april-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:181858a6-6bcd-4f24-a576-f101ee18407a
-DTSTAMP:20250702T093806Z
+UID:85efcfad-5769-4a63-ac5b-007374690a74
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250814
 SUMMARY:🇪🇺 Greenhouse gas emissions accounts
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:28e1d8c9-e0ee-48a3-b51a-f65b912fbccb
-DTSTAMP:20250702T093806Z
+UID:d02b6cf8-0480-4307-9a9f-d24ca189a4d3
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250814
 SUMMARY:🇪🇺 Monthly energy
 DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:e6da27e6-eb64-4079-91ac-ecccd5540dfd
-DTSTAMP:20250702T093806Z
+UID:69ebe795-4f87-4ff5-a559-4242fe784f15
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250821
 SUMMARY:🇬🇧 Energy use on farms, England 2023/24
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/farm-energy-use-england-202324
 END:VEVENT
 BEGIN:VEVENT
-UID:e4a18070-6fd8-4019-b15b-5f6108d48146
-DTSTAMP:20250702T093806Z
+UID:ac2c89d1-20b0-48bc-a3d7-f6ea54e70302
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250821
+SUMMARY:🇬🇧 Non-domestic National Energy Efficiency Data-Framework 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/non-domestic-national-energy-efficiency-data-framework-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:6703a9e6-7f93-473c-baf2-cddab56238c0
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250828
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: July 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-july-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:fe259f4a-1242-45b9-9ccc-8614d7aff1b1
-DTSTAMP:20250702T093806Z
+UID:b41c7c9c-f148-46d9-912f-bcc180394c81
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250828
 SUMMARY:🇬🇧 Cereal and oilseed areas in England at 1 June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/cereal-and-oilseed-areas-in-england-at-1-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:e20b2256-f536-4bc8-ad0b-63b6d419ad85
-DTSTAMP:20250702T093806Z
+UID:c7640dc4-f806-490a-9a69-9404c7173ba1
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250828
 SUMMARY:🇬🇧 Energy trends and prices: June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:58bb3155-08a5-4ce7-970c-14145cd54815
-DTSTAMP:20250702T093806Z
+UID:43682071-fe88-4d2b-99b0-19a4e8d6d6bb
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250828
 SUMMARY:🇬🇧 Green Homes Grant Local Authority Delivery and Home Upgrade Grant: June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/green-homes-grant-local-authority-delivery-and-home-upgrade-grant-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:f8dba9c3-21fa-4e61-b6fc-07acf7b59bbf
-DTSTAMP:20250702T093806Z
+UID:4a12a210-3d3d-4d44-a439-9ba32d7571f4
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250828
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (quarterly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-quarterly-data--22
 END:VEVENT
 BEGIN:VEVENT
-UID:a3c16c44-8736-47ee-948e-4aa5f98ff6b1
-DTSTAMP:20250702T093806Z
+UID:a4920da2-ca5f-45aa-baa8-abf1b5d25f7b
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250828
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:67031152-f81f-4d82-9058-4cffd6d78947
-DTSTAMP:20250702T093806Z
+UID:a09579ae-092d-4783-a167-1a505ab64896
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250901
+SUMMARY:🇪🇺 Population reporting exposure to pollution, grime or other environmental problems, by income situation
+DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:0803ccf6-f7b8-4776-ae02-86b9a98c7698
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250904
+SUMMARY:🇬🇧 Electricity Consumption and Renewable Generation in Northern Ireland: Year Ending June 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/electricity-consumption-and-renewable-generation-in-northern-ireland-year-ending-june-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:44e605e0-8e1c-4a21-9b7d-2532ab9aae92
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250911
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: May 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-may-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:d9deb81c-eef0-46b0-a515-b7930911c11b
-DTSTAMP:20250702T093806Z
+UID:c702eb38-c4e8-4e58-9dbb-d81bef0c8900
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250911
+SUMMARY:🌍 Oil Market Report – September 2025
+DESCRIPTION:https://www.iea.org/events/oil-market-report-september-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:b996a75a-4073-44c6-a74e-f28d8c0ca0ea
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250915
+SUMMARY:🇪🇺 Monthly energy
+DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:c6fc985d-b7fb-4d1f-92ab-23b3852cc59f
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250918
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (monthly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-monthly-data--44
 END:VEVENT
 BEGIN:VEVENT
-UID:febf7b20-a033-40eb-8a62-eb59335d2e8b
-DTSTAMP:20250702T093806Z
+UID:b90d86f2-bf74-4e06-b7b8-156417c1a795
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20250922
+SUMMARY:🇪🇺 EU imports of energy products - latest developments
+DESCRIPTION:https://ec.europa.eu/eurostat/web/main/news/release-calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:6e3a805e-2c88-4f6f-883a-7a0697b9620b
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250925
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: August 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-august-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:8c206156-e656-4d66-9587-53f985845874
-DTSTAMP:20250702T093806Z
+UID:46b9baac-5530-4ef6-b41e-0aa5e4bad545
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250925
 SUMMARY:🇬🇧 Energy Consumption in the UK – 2024
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-consumption-in-the-uk-2024
 END:VEVENT
 BEGIN:VEVENT
-UID:43d0a48f-2a2e-4f56-bf2f-7e8ee62d6d4e
-DTSTAMP:20250702T093806Z
+UID:a1e88c0c-90d0-40ca-a9f2-e7a23ef38b85
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250925
 SUMMARY:🇬🇧 Forestry facts and figures 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-facts-and-figures-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:a23f0333-716d-483d-85a0-b16b77be1b69
-DTSTAMP:20250702T093806Z
+UID:290e35af-f18b-4a41-bef9-7d1a62a88887
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250925
 SUMMARY:🇬🇧 Forestry statistics 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-statistics-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:c7659e69-5325-4f43-ae22-f6d43e78b9cf
-DTSTAMP:20250702T093806Z
+UID:7a9dba0a-8031-464f-90d0-26c7302eda34
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250925
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: July 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-july-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:063e0a52-e3ff-406e-9b5f-bbfe4bb793bb
-DTSTAMP:20250702T093806Z
+UID:a72284e1-774c-44bf-b3bd-a6a844070e9e
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250930
 SUMMARY:🇬🇧 Energy prices: April to June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-april-to-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:8a4c3cea-aac9-48d1-b48e-5ed021e4947b
-DTSTAMP:20250702T093806Z
+UID:7eaf7b2b-dee9-4fc0-892d-9c9bc0a582da
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250930
 SUMMARY:🇬🇧 Energy trends and prices: July 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-july-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:0e354cf0-0d56-4785-8a1d-decc36633d2b
-DTSTAMP:20250702T093806Z
+UID:31ef4375-e245-49c4-90f2-568829287052
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20250930
 SUMMARY:🇬🇧 Energy trends: April to June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-april-to-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:7f63f630-de09-431d-a00b-2871c47a95e3
-DTSTAMP:20250702T093806Z
+UID:83d1ea4a-020e-4493-ae44-bd68b880d452
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20251001
+SUMMARY:🌍 Commodity Trade Statistics Database
+DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:e91ddb3d-4dda-486b-83a3-e7d5133da889
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20251009
+SUMMARY:🇬🇧 Cereal and oilseed rape production in England, provisional estimates for 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/cereal-and-oilseed-rape-production-in-england-provisional-estimates-for-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:a8cb59f8-d9e7-4f7b-b05c-e64427179803
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251009
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: June 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-june-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:2005dacd-e55c-4f2b-959a-61d04e625482
-DTSTAMP:20250702T093806Z
+UID:a96627da-0a48-4692-a2d1-6d315536885a
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20251014
+SUMMARY:🌍 Oil Market Report – October 2025
+DESCRIPTION:https://www.iea.org/events/oil-market-report-october-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:a46a01a3-53c0-4da1-890c-72909dd144f3
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251020
 SUMMARY:🌍 Africa Energy Efficiency Policy Training Week 2025
 DESCRIPTION:https://www.iea.org/events/africa-energy-efficiency-policy-training-week-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:8667fd63-8719-463a-8c01-c8f3d55dbe11
-DTSTAMP:20250702T093806Z
+UID:4afb20ec-41b9-418c-b967-1f9caf5d874a
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251023
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (monthly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-monthly-data--45
 END:VEVENT
 BEGIN:VEVENT
-UID:8bd35d35-0b26-4a6f-a4f4-fe20833ef84b
-DTSTAMP:20250702T093806Z
+UID:ee3eb36d-6264-4a45-8279-f4dabd5979ae
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251023
 SUMMARY:💲 Valero Energy Corp.: Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/vlo-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:259fe117-d259-4bff-bff8-237c380f26fd
-DTSTAMP:20250702T093806Z
+UID:cd4e522c-8109-4978-80d5-15dfaccca3d0
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251024
 SUMMARY:💲 Chevron Corp.: Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/cvx-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:8dd611b2-57ba-4636-83cd-90f535bfb0da
-DTSTAMP:20250702T093806Z
+UID:af938d85-1ef7-452b-b587-4490977908ab
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251024
 SUMMARY:💲 ExxonMobil Corp. (Exxon Mobil): Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/xom-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:3e071add-e7e3-4a27-9d72-60f81537dacf
-DTSTAMP:20250702T093806Z
+UID:df407291-354a-41a6-a82b-50a05c359985
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251024
 SUMMARY:💲 Phillips 66: Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/psx-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:98105739-c102-44ea-9bf4-1eaa40863494
-DTSTAMP:20250702T093806Z
+UID:a996cb1f-d773-4476-896a-d7f0275ae956
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:400b1f74-8c52-4604-a9f2-e0dfc13cd181
-DTSTAMP:20250702T093806Z
+UID:510ab75e-d6a1-48c8-929f-39f413885e3b
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: July to September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-july-to-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:f74ea9d4-bdba-4136-9179-2a4bf3fac58f
-DTSTAMP:20250702T093806Z
+UID:b195e9fe-9b7c-425a-a9d0-8bddd2ce85b7
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:🇬🇧 Energy trends and prices: August 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-august-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:daa9b3f4-b5f3-4e9f-8fd9-da1dbbfa3069
-DTSTAMP:20250702T093806Z
+UID:2c6201c0-6465-40dc-95e2-f4ee28d820cc
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: August 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-august-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:8afb8084-3c2a-44a8-babd-fe8ae6b8419c
-DTSTAMP:20250702T093806Z
+UID:b5fe1a2c-bf72-4487-9802-bdcabd58ddf4
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:💲 ConocoPhillips: Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/cop-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:a2fb784c-df3c-458f-a14e-40e3a948898f
-DTSTAMP:20250702T093806Z
+UID:bf4296e7-101c-4ed4-b6ac-e612ce8409df
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:💲 Shell (ex Royal Dutch Shell): Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/rydaf-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:432de708-f63a-45db-9353-85042e9e0eb9
-DTSTAMP:20250702T093806Z
+UID:99abbc75-c050-44eb-b1d0-77720b5f33fb
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251030
 SUMMARY:💲 TOTAL S.A.: Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/ttfnf-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:2d7e7c5c-774b-436c-974c-c426d6c223ae
-DTSTAMP:20250702T093806Z
+UID:6d9b3dec-cc61-4778-b2d9-9259c650be0b
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251104
 SUMMARY:💲 BP plc (British Petrol): Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/bpaqf-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:7607535b-8d87-4266-93ba-ef26ce122e34
-DTSTAMP:20250702T093806Z
+UID:11908c81-de4c-43aa-a7fe-d08259cfae08
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251104
 SUMMARY:💲 Marathon Petroleum Corporation: Q3 2025 Earnings
 DESCRIPTION:https://markets.businessinsider.com/stocks/mpc-stock
 END:VEVENT
 BEGIN:VEVENT
-UID:719e4556-a6ae-4cef-adc4-8776a2393907
-DTSTAMP:20250702T093806Z
+UID:0e7b0536-ad61-4319-91dc-c2987eb7ab3f
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20251113
+SUMMARY:🇬🇧 Forestry Commission Key Performance Indicators: Headline Performance Update at 30 September 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-commission-key-performance-indicators-headline-performance-update-at-30-september-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:8baba0ca-5729-4239-851f-9087f5edc07b
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251113
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: July 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-july-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:97551f78-77f5-4763-b381-a2f4da34f3ef
-DTSTAMP:20250702T093806Z
+UID:f0497161-6631-4809-aff8-393cfa867f31
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251127
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: October 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-october-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:0f468551-89ab-4ff1-8a2f-b83a1b03b504
-DTSTAMP:20250702T093806Z
+UID:6ac700eb-ae4b-4eeb-880c-ec499d2d3464
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251127
 SUMMARY:🇬🇧 Energy trends and prices: September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:0cb2868f-c309-4809-9415-4ed05904e019
-DTSTAMP:20250702T093806Z
+UID:ded9662b-5f76-4bd0-9525-015d6eeb6642
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251127
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (quarterly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-quarterly-data--23
 END:VEVENT
 BEGIN:VEVENT
-UID:3c328e72-5db8-4d41-a24b-f4a806df89cd
-DTSTAMP:20250702T093806Z
+UID:79d28706-f8c5-40f7-bd66-6aaca71de432
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251127
 SUMMARY:🇬🇧 Social Housing Decarbonisation Fund: September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:971efa89-ec3a-4deb-b44d-fcb5924ba588
-DTSTAMP:20250702T093806Z
+UID:e6856665-db62-45ed-b91c-04c96ee18e34
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251202
 SUMMARY:🌍 25th Annual IEA-IETA-EPRI Workshop on Greenhouse Gas Emissions Trading
 DESCRIPTION:https://www.iea.org/events/25th-annual-iea-ieta-epri-workshop-on-greenhouse-gas-emissions-trading
 END:VEVENT
 BEGIN:VEVENT
-UID:ec05bbc8-81bf-4b92-adcb-37b2d99077a2
-DTSTAMP:20250702T093806Z
+UID:108fc42d-caf5-4b45-a427-e0d4230ad73e
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251211
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: August 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-august-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:11fb8ef2-46ac-42e0-8be2-0ff9a6e79471
-DTSTAMP:20250702T093806Z
+UID:fd7762d0-346e-4024-8678-9d348075ccd1
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251218
 SUMMARY:🇬🇧 Boiler Upgrade Scheme: November 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-november-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:4201bd0b-415a-4a1c-9654-9a9fe40190db
-DTSTAMP:20250702T093806Z
+UID:0a0bd454-e9fd-4fe2-97c8-188e556384ab
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251218
 SUMMARY:🇬🇧 Energy prices: July to September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-prices-july-to-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:1b039691-d60f-40ae-99bc-b3666a733283
-DTSTAMP:20250702T093806Z
+UID:a2dda3a4-eef3-4f92-ada8-2f598be6e20e
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251218
 SUMMARY:🇬🇧 Energy trends and prices: October 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-october-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:625045ec-a094-4b35-b933-51eb6dcd38d1
-DTSTAMP:20250702T093806Z
+UID:7d8a6a39-85dc-4e02-a578-aec3464ffbfc
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251218
 SUMMARY:🇬🇧 Energy trends: July to September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-july-to-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:aff2a23b-64cf-4fcc-9300-a65d396c3c3d
-DTSTAMP:20250702T093806Z
+UID:fb01a0b0-5dfc-4ed3-a83c-ce3c778e937a
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20251218
 SUMMARY:🇬🇧 Household Energy Efficiency Headline Release (monthly data)
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/household-energy-efficiency-headline-release-monthly-data--46
 END:VEVENT
 BEGIN:VEVENT
-UID:9a21df5f-e032-4660-b03e-3033396e905a
-DTSTAMP:20250702T093806Z
+UID:37a05e09-71b0-46da-a7b2-cd7258fc8584
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: September 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-september-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:b2d1557d-a846-4a77-8f59-d60089a47ac7
-DTSTAMP:20250702T093806Z
+UID:1ab1bf54-404a-4223-a247-cd3dd830c9a7
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260117
 SUMMARY:🌍 Energy Statistics Database
 DESCRIPTION:http://data.un.org/UpdateCalendar.aspx
 END:VEVENT
 BEGIN:VEVENT
-UID:78a2662a-fb35-425b-9b1c-ea774082a11d
-DTSTAMP:20250702T093806Z
+UID:bbbd3249-c9cd-40a7-a878-d4e51b2756f9
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260129
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: October to December 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-october-to-december-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:e3e65173-95c7-4c3c-beb4-a277ae4c9784
-DTSTAMP:20250702T093806Z
+UID:febb9494-7ac6-4ac3-9c19-a60e8f6905c4
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260129
 SUMMARY:🇬🇧 Energy trends and prices: November 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-november-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:59a1483f-f0e1-49a8-8344-34971df5cc47
-DTSTAMP:20250702T093806Z
+UID:563b2d2f-a73f-4a8e-a1bd-34e9a027a9ed
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20260212
+SUMMARY:🇬🇧 Emissions of air pollutants
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/emissions-of-air-pollutants--5
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6bbc9c-af4f-4f5f-8664-459f563f0877
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260212
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: October 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-october-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:66a55bd3-99e4-4259-a54e-50d69118c508
-DTSTAMP:20250702T093806Z
+UID:e749f5e7-422b-45c6-a79d-55ef94c179f8
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260226
 SUMMARY:🇬🇧 Energy trends and prices: December 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-december-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:064c03e9-567f-46cd-9d6b-b39d3a8234fc
-DTSTAMP:20250702T093806Z
+UID:f52ee099-ec47-4dbc-8c94-d7f921091a44
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260312
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: November 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-november-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:4943c5ff-9e7a-4b04-bcc9-e1cc4c195baf
-DTSTAMP:20250702T093806Z
+UID:dadff36f-2a5a-416f-a77d-0f02d38544a3
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260409
 SUMMARY:🇬🇧 Renewables obligation: certificates and generation: December 2025
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/renewables-obligation-certificates-and-generation-december-2025
 END:VEVENT
 BEGIN:VEVENT
-UID:dbc72daf-6267-44ed-b63f-628ffd6af463
-DTSTAMP:20250702T093806Z
+UID:51202d06-7cd2-4e34-9df4-a878f776aa4f
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260423
 SUMMARY:🇬🇧 Energy Performance of Building Certificates in England and Wales: January to March 2026
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-performance-of-building-certificates-in-england-and-wales-january-to-march-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:c6b0e5e4-67a2-48d5-99dc-631b635a4e0b
-DTSTAMP:20250702T093806Z
+UID:3621dee0-4ab5-4870-9cf0-5fe6de128c30
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260430
 SUMMARY:🇬🇧 Energy trends and prices: February 2026
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-february-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:6a7611ae-971e-4098-b85f-a7826898db9f
-DTSTAMP:20250702T093806Z
+UID:2f4f4e42-fe2e-439d-b440-30434ba65f3f
+DTSTAMP:20250804T084225Z
 DTSTART;VALUE=DATE:20260528
 SUMMARY:🇬🇧 Energy trends and prices: March 2026
 DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-march-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:419a7e55-179c-4b85-b771-a3dc2105c671
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20260625
+SUMMARY:🇬🇧 Forestry Commission Key Performance Indicators: Report for 2025-26
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/forestry-commission-key-performance-indicators-report-for-2025-26
+END:VEVENT
+BEGIN:VEVENT
+UID:36067bf0-0a50-4585-8dd3-813d4556506a
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:🇬🇧 Digest of UK Energy Statistics: 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/digest-of-uk-energy-statistics-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:54be0f25-1899-4d0c-8732-5faea625af4d
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:🇬🇧 Energy Flow Chart: 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-flow-chart-2025
+END:VEVENT
+BEGIN:VEVENT
+UID:d1dde7b7-6e0e-4272-a3c3-8b722f8bec0a
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:🇬🇧 Energy trends and prices: May 2026
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/energy-trends-and-prices-may-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:3b88f07b-8f69-4a3b-ba53-47a5c5fe4511
+DTSTAMP:20250804T084225Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:🇬🇧 UK Energy in Brief: 2025
+DESCRIPTION:https://www.gov.uk/government/statistics/announcements/uk-energy-in-brief-2025
 END:VEVENT
 END:VCALENDAR
